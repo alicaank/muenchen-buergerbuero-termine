@@ -1,0 +1,41 @@
+name: Get Appointments and Update ICS
+
+on:
+  schedule:
+    - cron: "10 * * * *"  # every minute
+  workflow_dispatch:      # allows manual runs if needed
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Get appointments and generate files
+        run: |
+          python get_buergerbuero_appointments.py
+          python generate_ics.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: Update ICS/RSS feeds [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          # Use the built-in GITHUB_TOKEN with write permissions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
