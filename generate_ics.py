@@ -13,6 +13,8 @@ from datetime import datetime, timedelta
 from icalendar import Calendar, Event
 from pathlib import Path
 
+from constants import Office, Services
+
 # ------------
 # CONFIG
 # ------------
@@ -31,17 +33,20 @@ def load_appointments(json_file):
         data = json.load(f)
     return data
 
-def generate_ics_for_category(category_name, category_data):
+def generate_ics_for_category(service, appointments):
     """
     Create an ICS Calendar object for a single category.
-    category_data is the dict of { location -> { date -> {...} } }
+    appointments is the dict of { location -> { date -> {...} } }
     """
+    service = Services[service]
+    
     cal = Calendar()
-    cal.add('prodid', f'-//Appointments Buergerbuero Muenchen//{category_name}//')
+    cal.add('prodid', f'-//Appointments Buergerbuero Muenchen//{service}//')
     cal.add('version', '2.0')
 
     # Iterate over locations in this category
-    for location_name, dates_dict in category_data.items():
+    for office_name, dates_dict in appointments.items():
+        office = Office[office_name]
         for date_str, info in dates_dict.items():
             # If there's an errorCode, skip
             if "errorCode" in info:
@@ -54,14 +59,14 @@ def generate_ics_for_category(category_name, category_data):
                 end_dt = start_dt + timedelta(minutes=15)  # Each appointment is 15 min
 
                 event = Event()
-                event.add('summary', f"{category_name} - {location_name}")
+                event.add('summary', f"{service.name} - {office_name}")
                 event.add('dtstart', start_dt)
                 event.add('dtend', end_dt)
-                event.add('dtstamp', datetime.utcnow())
-                event.add('location', location_name)
-                event.add('description', f"Category: {category_name}\nLocation: {location_name}")
+                event.add('dtstamp', datetime.now())
+                event.add('location', office.address)
+                event.add('description', f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\nZuletzt geupdated: {datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S')}")
                 # Unique identifier for the event
-                event['uid'] = f"{start_ts}-{location_name.replace(' ', '_')}@example.com"
+                event['uid'] = f"{start_ts}-{office_name.replace(' ', '_')}"
 
                 cal.add_component(event)
 
@@ -75,17 +80,17 @@ def main():
     output_dir = Path(OUTPUT_DIR_NAME)
     output_dir.mkdir(exist_ok=True)
 
-    for category_name, category_data in data.items():
-        cal = generate_ics_for_category(category_name, category_data)
+    for service, appointments in data.items():
+        cal = generate_ics_for_category(service, appointments)
 
         # Make a safe filename from the category name
-        safe_cat = clean_filename(category_name)
+        safe_cat = clean_filename(service)
         output_file = output_dir / f"{safe_cat}.ics"
 
         with open(output_file, 'wb') as f:
             f.write(cal.to_ical())
 
-        print(f"Created ICS for category '{category_name}' -> {output_file}")
+        print(f"Created ICS for category '{service}' -> {output_file}")
 
 if __name__ == "__main__":
     main()

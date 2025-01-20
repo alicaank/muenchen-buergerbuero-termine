@@ -1,35 +1,8 @@
 import json
 import requests
 from datetime import date, datetime, timedelta
-from enum import Enum
 
-
-class Office(Enum):
-    """Bürgerbüros in Munich"""
-
-    ORLEANSPLATZ = "BÜRGERBÜRO ORLEANSPLATZ", 102522
-    LEONRODSTRASSE = "BÜRGERBÜRO LEONRODSTRASSE", 102523
-    RIESENFELDSTRASSE = "BÜRGERBÜRO RIESENFELDSTRASSE", 102524
-    FORSTENRIEDER = "BÜRGERBÜRO FORSTENRIEDER ALLEE", 102526
-    RUPPERTSTRASSE = "BÜRGERBÜRO RUPPERTSTRASSE", 10489
-    PASING = "BÜRGERBÜRO PASING", 54261
-
-
-class Services(Enum):
-    REISEPASS = 1063453
-    BEGLAUBIGUNG_VON_BIS_ZU_5_DOKUMENTEN = 1063426
-    BEGLAUBIGUNG_VON_UNTERSCHRIFTEN = 1063428
-    PERSONALAUSWEIS = 1063441
-    WOHNSITZ_ANMELDEN_ODER_UMMELDEN = 1063475
-    VERLUST_ODER_DIEBSTAHL_PERSONALAUSWEIS = 1076889
-    VORLAEUFIGER_REISEPASS = 1080582
-    HAUSHALTSBESCHEINIGUNG = 1080843
-    PERSONENDATEN_IM_MELDEREGISTER_AENDERN = 10224136
-    EINSCHALTEN_ELD_FUNKTION_ODER_AENDERUNG_DER_PIN = 10225119
-    BEGLAUBIGUNG_VON_BIS_ZU_20_DOKUMENTEN = 10225119
-    AUSWEISDOKUMENTE_FAMILIE = 10225205
-    ADRESSAENDERUNG_PERSONALAUSWEIS_REISEPASS_EAT = 10242339
-    ELD_KARTE_EU_EWR = 10306925
+from constants import Office, Services
 
 
 def get_available_dates(
@@ -45,7 +18,7 @@ def get_available_dates(
         params={
             "startDate": start_date.strftime("%Y-%m-%d"),
             "endDate": end_date.strftime("%Y-%m-%d"),
-            "officeId": office.value[1],
+            "officeId": office.office_id,
             "serviceId": service.value,
             "serviceCount": "1",
         },
@@ -63,7 +36,7 @@ def get_appointments_for_date(
         url,
         params={
             "date": appointment_date.strftime("%Y-%m-%d"),
-            "officeId": office.value[1],
+            "officeId": office.office_id,
             "serviceId": service.value,
             "serviceCount": "1",
         },
