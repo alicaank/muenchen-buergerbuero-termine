@@ -4,8 +4,17 @@ A repo for gathering available appointment dates and times from [Munich's Bürge
 ## Available Service Calendars
 Every service has its own calendar. All service calendars can be found [here](https://github.com/Lars147/muenchen-buergerbuero-termine/tree/main/ics).
 
-## Subscribe to Calendar Updates
+When copying the ICS URL, make sure to copy the **raw** subdomain, e.g. instead of
 
+```
+https://github.com/Lars147/muenchen-buergerbuero-termine/blob/main/ics/REISEPASS.ics
+```
+use
+```
+https://raw.githubusercontent.com/Lars147/muenchen-buergerbuero-termine/refs/heads/main/ics/REISEPASS.ics
+```
+
+## Subscribe to Calendar Updates
 You can subscribe to the appointment calendars in your preferred calendar application:
 
 ### Apple Calendar (iOS/macOS)
