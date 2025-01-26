@@ -12,6 +12,7 @@ import re
 from datetime import datetime, timedelta
 from icalendar import Calendar, Event
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from constants import Office, Services
 
@@ -40,7 +41,7 @@ def generate_ics_for_category(service, appointments):
     Create an ICS Calendar object for a single category.
     appointments is the dict of { location -> { date -> {...} } }
     """
-    now = datetime.now()
+    now = datetime.now().astimezone(ZoneInfo("Europe/Berlin"))
     service = Services[service]
     
     cal = Calendar()
@@ -69,7 +70,11 @@ def generate_ics_for_category(service, appointments):
                 event.add('dtend', end_dt)
                 event.add('dtstamp', datetime.now())
                 event.add('location', office.address)
-                event.add('description', f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\nZuletzt abgerufen: {now.strftime('%d.%m.%Y %H:%M:%S')}\nZuletzt geupdated (muenchen.de): {datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S')}")
+                event.add('description',
+                    f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\n"
+                    f"Zuletzt abgerufen: {now.strftime('%d.%m.%Y %H:%M:%S %Z (%z)')}\n"
+                    f"Zuletzt geupdated (muenchen.de): {datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S %Z (%z)')}"
+                )
                 # Unique identifier for the event
                 event['uid'] = f"{start_ts}-{office_name.replace(' ', '_')}"
 
