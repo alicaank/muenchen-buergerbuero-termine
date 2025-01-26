@@ -25,7 +25,7 @@ You can subscribe to the appointment calendars in your preferred calendar applic
 5. Click Subscribe
 
 ### Google Calendar
-[Might not update frequent enough!](https://gist.github.com/gene1wood/02ed0d36f62d791518e452f55344240d)
+[Random update frequency!](https://gist.github.com/gene1wood/02ed0d36f62d791518e452f55344240d)
 1. Open Google Calendar
 2. Click the + next to "Other calendars"
 3. Select "From URL"
