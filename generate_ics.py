@@ -61,7 +61,7 @@ def generate_ics_for_category(service, appointments):
             # appointmentTimestamps is the list of start times (epoch)
             timestamps = info.get("appointmentTimestamps", [])
             for start_ts in timestamps:
-                start_dt = datetime.fromtimestamp(start_ts)
+                start_dt = datetime.fromtimestamp(start_ts, tz=ZoneInfo("Europe/Berlin"))
                 end_dt = start_dt + timedelta(minutes=15)  # Each appointment is 15 min
 
                 event = Event()
