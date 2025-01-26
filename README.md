@@ -51,6 +51,9 @@ Note: The calendar will automatically update based on your calendar app's refres
 ### Scraping Interval
 Currently, the Github Action is triggered to run every 10 minutes. This means that the ICS files are updated every 10 minutes.
 
+### JSON File
+If you want to consume the information in a different format, you can use the raw [JSON file](appointments.json). It is used to generate the ICS files and is updated every time the script is run.
+
 ## Scrap the Data Yourself
 1. Install dependencies `pip install -r requirements.txt`
 2. Run the Python script: `python get_buergerbuero_appointments.py`
