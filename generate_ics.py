@@ -38,6 +38,7 @@ def generate_ics_for_category(service, appointments):
     Create an ICS Calendar object for a single category.
     appointments is the dict of { location -> { date -> {...} } }
     """
+    now = datetime.now()
     service = Services[service]
     
     cal = Calendar()
@@ -64,7 +65,7 @@ def generate_ics_for_category(service, appointments):
                 event.add('dtend', end_dt)
                 event.add('dtstamp', datetime.now())
                 event.add('location', office.address)
-                event.add('description', f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\nZuletzt geupdated: {datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S')}")
+                event.add('description', f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\nZuletzt abgerufen: {now.strftime('%d.%m.%Y %H:%M:%S')}\nZuletzt geupdated (muenchen.de): {datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S')}")
                 # Unique identifier for the event
                 event['uid'] = f"{start_ts}-{office_name.replace(' ', '_')}"
 
