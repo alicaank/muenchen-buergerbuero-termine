@@ -21,29 +21,7 @@ from constants import Office, Services
 JSON_FILE = "appointments.json"  # Input JSON with the structure shown in the example
 OUTPUT_DIR_NAME = "ics"  # Output directory for ICS files
 
-def fold_ics_line(text, length=75):
-    """Folds a long line according to RFC 5545."""
-    if len(text) <= length:
-        return text
-    
-    parts = []
-    current_line = text
-    
-    while len(current_line) > length:
-        # Find the last space before the 75 character limit
-        space_index = current_line.rfind(' ', 0, length)
-        
-        if space_index == -1:  # No space found, force break at length
-            parts.append(current_line[:length])
-            current_line = current_line[length:]
-        else:  # Break at last space
-            parts.append(current_line[:space_index])
-            current_line = current_line[space_index + 1:]
-    
-    if current_line:
-        parts.append(current_line)
-    
-    return '\r\n '.join(parts)
+
 
 def clean_filename(name):
     """
@@ -85,21 +63,13 @@ def generate_ics_for_category(service, appointments):
                 start_dt = datetime.fromtimestamp(start_ts)
                 end_dt = start_dt + timedelta(minutes=15)  # Each appointment is 15 min
 
-                event_description = (
-                    f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung."
-                    f"html#/services/{service.value}/\n\n"
-                    f"Zuletzt abgerufen: {now.strftime('%d.%m.%Y %H:%M:%S')}\n"
-                    f"Zuletzt geupdated (muenchen.de): "
-                    f"{datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S')}"
-                )
-
                 event = Event()
                 event.add('summary', f"{service.name} - {office_name}")
                 event.add('dtstart', start_dt)
                 event.add('dtend', end_dt)
                 event.add('dtstamp', datetime.now())
                 event.add('location', office.address)
-                event.add('description', fold_ics_line(event_description))
+                event.add('description', f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\nZuletzt abgerufen: {now.strftime('%d.%m.%Y %H:%M:%S')}\nZuletzt geupdated (muenchen.de): {datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S')}")
                 # Unique identifier for the event
                 event['uid'] = f"{start_ts}-{office_name.replace(' ', '_')}"
 
