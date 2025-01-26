@@ -44,6 +44,8 @@ def generate_ics_for_category(service, appointments):
     cal = Calendar()
     cal.add('prodid', f'-//Appointments Buergerbuero Muenchen//{service}//')
     cal.add('version', '2.0')
+    cal.add('method', 'PUBLISH')
+    cal.add('calscale', 'GREGORIAN')
 
     # Iterate over locations in this category
     for office_name, dates_dict in appointments.items():
