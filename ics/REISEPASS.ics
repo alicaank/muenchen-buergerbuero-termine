@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:REISEPASS - RIESENFELDSTRASSE
+DTSTART;TZID=Europe/Berlin:20250128T123500
+DTEND;TZID=Europe/Berlin:20250128T125000
+DTSTAMP:20250126T202804Z
+UID:1738064100-RIESENFELDSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 26.01.2025 21:2
+ 8:04 CET (+0100)\nZuletzt geupdated (muenchen.de): 26.01.2025 21:24:09 CET
+  (+0100)
+LOCATION:Riesenfeldstraße 75\, 80809 München
+END:VEVENT
 END:VCALENDAR
