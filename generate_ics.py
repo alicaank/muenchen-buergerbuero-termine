@@ -21,6 +21,7 @@ from constants import Office, Services
 # ------------
 JSON_FILE = "appointments.json"  # Input JSON with the structure shown in the example
 OUTPUT_DIR_NAME = "ics"  # Output directory for ICS files
+TZ = ZoneInfo("Europe/Berlin")  # Timezone for the appointments
 
 
 
@@ -41,7 +42,7 @@ def generate_ics_for_category(service, appointments):
     Create an ICS Calendar object for a single category.
     appointments is the dict of { location -> { date -> {...} } }
     """
-    now = datetime.now().astimezone(ZoneInfo("Europe/Berlin"))
+    now = datetime.now().astimezone(TZ)
     service = Services[service]
     
     cal = Calendar()
@@ -61,7 +62,7 @@ def generate_ics_for_category(service, appointments):
             # appointmentTimestamps is the list of start times (epoch)
             timestamps = info.get("appointmentTimestamps", [])
             for start_ts in timestamps:
-                start_dt = datetime.fromtimestamp(start_ts, tz=ZoneInfo("Europe/Berlin"))
+                start_dt = datetime.fromtimestamp(start_ts, tz=TZ)
                 end_dt = start_dt + timedelta(minutes=15)  # Each appointment is 15 min
 
                 event = Event()
@@ -73,7 +74,7 @@ def generate_ics_for_category(service, appointments):
                 event.add('description',
                     f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\n"
                     f"Zuletzt abgerufen: {now.strftime('%d.%m.%Y %H:%M:%S %Z (%z)')}\n"
-                    f"Zuletzt geupdated (muenchen.de): {datetime.fromtimestamp(int(info['lastModified']) / 1000).strftime('%d.%m.%Y %H:%M:%S %Z (%z)')}"
+                    f"Zuletzt geupdated (muenchen.de): {datetime.fromtimestamp(int(info['lastModified']) / 1000, tz=TZ).strftime('%d.%m.%Y %H:%M:%S %Z (%z)')}"
                 )
                 # Unique identifier for the event
                 event['uid'] = f"{start_ts}-{office_name.replace(' ', '_')}"
