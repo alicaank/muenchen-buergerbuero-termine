@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - PASING
+DTSTART;TZID=Europe/Berlin:20250128T084500
+DTEND;TZID=Europe/Berlin:20250128T090000
+DTSTAMP:20250127T214643Z
+UID:1738050300-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 27.01.2025 22:
+ 46:43 CET (+0100)\nZuletzt geupdated (muenchen.de): 27.01.2025 22:46:42 CE
+ T (+0100)
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
 END:VCALENDAR
