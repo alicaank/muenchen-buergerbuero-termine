@@ -55,6 +55,8 @@ if __name__ == "__main__":
         result[service.name] = {}
 
         for office in Office:
+            if service == Services.NOTFALL_HILFE_AUFENTHALTSTITEL_BESCHAEFTIGTE_ANGEHOERIGE and office != Office.AUSLAENDERBEHOERDE:
+                continue
             print(f"Gather information for office {office}...")
             result[service.name][office.name] = {}
             response = get_available_dates(start_date, end_date, office, service)
