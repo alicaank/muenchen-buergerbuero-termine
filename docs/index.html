@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>München Bürgeramt Appointment Tracker</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .service-section {
+        margin: 20px 0;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .office-section {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+      }
+      .date-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+        margin: 10px 0;
+      }
+      .date-item {
+        padding: 8px;
+        background-color: #e6ffe6;
+        border-radius: 4px;
+      }
+      .timestamp {
+        color: #666;
+        font-style: italic;
+      }
+      #loading {
+        text-align: center;
+        padding: 20px;
+      }
+      .error {
+        color: red;
+        padding: 10px;
+        background-color: #fff0f0;
+        border-radius: 4px;
+      }
+      .office-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        user-select: none;
+      }
+      .appointment-count {
+        background-color: #4caf50;
+        color: white;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.9em;
+      }
+      .appointment-count.empty {
+        background-color: #999;
+      }
+      .office-content {
+        display: none;
+        margin-top: 10px;
+      }
+      .office-content.expanded {
+        display: block;
+      }
+      .toggle-icon {
+        display: inline-block;
+        width: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>München Bürgeramt Appointment Tracker</h1>
+    <p id="lastUpdate" class="timestamp"></p>
+    <div id="loading">Loading appointment data...</div>
+    <div id="content"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
