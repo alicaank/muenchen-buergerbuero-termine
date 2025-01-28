@@ -10,6 +10,7 @@ class Office(Enum):
     FORSTENRIEDER = ("BÜRGERBÜRO FORSTENRIEDER ALLEE", 102526, "Forstenrieder Allee 61a, 81476 München")
     RUPPERTSTRASSE = ("BÜRGERBÜRO RUPPERTSTRASSE", 10489, "Ruppertstraße 19, 80337 München")
     PASING = ("BÜRGERBÜRO PASING", 54261, "Landsberger Str. 486, 81241 München")
+    AUSLAENDERBEHOERDE = ("AUSLÄNDERBEHÖRDE", 102527, "Ruppertstraße 19, 80337 München")
     
     def __init__(self, verbose_name, office_id, address):
         self.verbose_name = verbose_name
@@ -32,3 +33,5 @@ class Services(Enum):
     AUSWEISDOKUMENTE_FAMILIE = 10225205
     ADRESSAENDERUNG_PERSONALAUSWEIS_REISEPASS_EAT = 10242339
     ELD_KARTE_EU_EWR = 10306925
+    NOTFALL_HILFE_AUFENTHALTSTITEL_BESCHAEFTIGTE_ANGEHOERIGE = 10339028
+    
