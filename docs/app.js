@@ -49,6 +49,7 @@ function displayAppointments(data) {
   const contentDiv = document.getElementById("content");
   const loadingDiv = document.getElementById("loading");
   const lastUpdateElement = document.getElementById("lastUpdate");
+  const tocList = document.querySelector("#tableOfContents ul");
 
   // Update timestamp
   lastUpdateElement.dataset.lastUpdate = new Date().toLocaleString();
@@ -56,11 +57,22 @@ function displayAppointments(data) {
   // Clear loading message and content
   loadingDiv.style.display = "none";
   contentDiv.innerHTML = "";
+  tocList.innerHTML = "";
 
-  // Generate content for each service
+  // Generate table of contents and content for each service
   Object.entries(data).forEach(([serviceName, officeData]) => {
+    // Create service ID for linking
+    const serviceId = serviceName.toLowerCase().replace(/\s+/g, "-");
+
+    // Add to table of contents
+    tocList.innerHTML += `
+      <li><a href="#${serviceId}">${serviceName}</a></li>
+    `;
+
+    // Create service section with ID
     const serviceSection = document.createElement("div");
     serviceSection.className = "service-section";
+    serviceSection.id = serviceId;
 
     serviceSection.innerHTML = `<h2>${serviceName}</h2>`;
 

@@ -77,11 +77,40 @@
         width: 20px;
         text-align: center;
       }
+      .toc {
+        margin: 20px 0;
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+      }
+      .toc ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .toc li a {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #e9ecef;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #333;
+      }
+      .toc li a:hover {
+        background-color: #dee2e6;
+      }
     </style>
   </head>
   <body>
     <h1>München Bürgeramt Appointment Tracker</h1>
     <p id="lastUpdate" class="timestamp"></p>
+    <div id="tableOfContents" class="toc">
+      <h2>Services</h2>
+      <ul></ul>
+    </div>
     <div id="loading">Loading appointment data...</div>
     <div id="content"></div>
 
