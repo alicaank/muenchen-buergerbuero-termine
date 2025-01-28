@@ -64,9 +64,26 @@ function displayAppointments(data) {
     // Create service ID for linking
     const serviceId = serviceName.toLowerCase().replace(/\s+/g, "-");
 
+    // Calculate total appointments for this service
+    const totalAppointments = Object.values(officeData).reduce(
+      (total, office) => {
+        return total + Object.keys(office).length;
+      },
+      0
+    );
+
     // Add to table of contents
     tocList.innerHTML += `
-      <li><a href="#${serviceId}">${serviceName}</a></li>
+      <li>
+        <a href="#${serviceId}" class="${
+      totalAppointments > 0 ? "has-appointments" : ""
+    }">
+          ${serviceName}
+          <span class="toc-count ${
+            totalAppointments === 0 ? "empty" : ""
+          }">${totalAppointments}</span>
+        </a>
+      </li>
     `;
 
     // Create service section with ID
