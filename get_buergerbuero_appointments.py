@@ -1,10 +1,36 @@
 import json
 import requests
 from datetime import date, datetime, timedelta
+from requests.exceptions import ConnectionError, Timeout
+from json.decoder import JSONDecodeError
+import time
+from functools import wraps
 
 from constants import Office, Services
 
 
+def retry_on_error(max_retries: int = 3, retry_delay: float = 1.0):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(max_retries):
+                try:
+                    return func(*args, **kwargs)
+                except (ConnectionError, Timeout):
+                    if attempt == max_retries - 1:
+                        raise
+                    time.sleep(retry_delay)
+                except JSONDecodeError as e:
+                    print(f"Failed to decode JSON response. Response text: {e.doc}")
+                    if attempt == max_retries - 1:
+                        raise
+                    time.sleep(retry_delay)
+            return None  # Should never reach here due to raise in last attempt
+        return wrapper
+    return decorator
+
+
+@retry_on_error()
 def get_available_dates(
     start_date: date,
     end_date: date,
@@ -12,36 +38,31 @@ def get_available_dates(
     service: Services = Services.REISEPASS,
 ) -> dict:
     url = "https://www48.muenchen.de/buergeransicht/api/backend/available-days"
-    response = requests.request(
-        "GET",
-        url,
-        params={
-            "startDate": start_date.strftime("%Y-%m-%d"),
-            "endDate": end_date.strftime("%Y-%m-%d"),
-            "officeId": office.office_id,
-            "serviceId": service.value,
-            "serviceCount": "1",
-        },
-    )
-
+    params = {
+        "startDate": start_date.strftime("%Y-%m-%d"),
+        "endDate": end_date.strftime("%Y-%m-%d"),
+        "officeId": office.office_id,
+        "serviceId": service.value,
+        "serviceCount": "1",
+    }
+    response = requests.request("GET", url, params=params)
     return response.json()
 
 
+@retry_on_error()
 def get_appointments_for_date(
-    appointment_date: date, office: Office, service: Services = Services.REISEPASS
+    appointment_date: date,
+    office: Office,
+    service: Services = Services.REISEPASS,
 ) -> dict:
     url = "https://www48.muenchen.de/buergeransicht/api/backend/available-appointments"
-    response = requests.request(
-        "GET",
-        url,
-        params={
-            "date": appointment_date.strftime("%Y-%m-%d"),
-            "officeId": office.office_id,
-            "serviceId": service.value,
-            "serviceCount": "1",
-        },
-    )
-
+    params = {
+        "date": appointment_date.strftime("%Y-%m-%d"),
+        "officeId": office.office_id,
+        "serviceId": service.value,
+        "serviceCount": "1",
+    }
+    response = requests.request("GET", url, params=params)
     return response.json()
 
 
