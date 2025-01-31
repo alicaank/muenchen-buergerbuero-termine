@@ -15,11 +15,13 @@ async function loadAppointments() {
     displayAppointments(data);
     updateCountdown(REFRESH_INTERVAL / 1000); // Start countdown from 30
   } catch (error) {
-    document.getElementById("loading").innerHTML = `
-            <div class="error">
-                Error loading appointment data: ${error.message}
-            </div>
-        `;
+    const loadingDiv = document.getElementById("loading");
+    loadingDiv.style.display = "block";
+    loadingDiv.innerHTML = `
+      <div class="error">
+        Error loading appointment data: ${error.message}
+      </div>
+    `;
   }
 }
 
@@ -67,7 +69,15 @@ function displayAppointments(data) {
     // Calculate total appointments for this service
     const totalAppointments = Object.values(officeData).reduce(
       (total, office) => {
-        return total + Object.keys(office).length;
+        return (
+          total +
+          Object.values(office).reduce((officeTotal, dateData) => {
+            if (dateData.appointmentTimestamps) {
+              return officeTotal + dateData.appointmentTimestamps.length;
+            }
+            return officeTotal;
+          }, 0)
+        );
       },
       0
     );
@@ -99,7 +109,10 @@ function displayAppointments(data) {
       officeSection.className = "office-section";
 
       const availableDates = Object.keys(dateData);
-      const appointmentCount = availableDates.length;
+      const appointmentCount = Object.values(dateData).reduce(
+        (sum, dateObj) => sum + (dateObj.appointmentTimestamps?.length || 0),
+        0
+      );
 
       officeSection.innerHTML = `
         <div class="office-header" onclick="toggleOffice(this)">
@@ -116,9 +129,20 @@ function displayAppointments(data) {
                 ${availableDates
                   .map(
                     (date) => `
-                  <div class="date-item">
-                    ${new Date(date).toLocaleDateString()}
-                  </div>
+                    <div class="date-item">
+                      <div class="date-header" onclick="toggleDay(this)">
+                        <span class="toggle-icon">▶</span>
+                        ${new Date(date).toLocaleDateString()}
+                      </div>
+                      <div class="times-list">
+                        ${(dateData[date].appointmentTimestamps || [])
+                          .map((time) => {
+                            const appointmentTime = new Date(time * 1000);
+                            return `<div class="time-item"><a target="blank_" href="https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/">${appointmentTime.toLocaleTimeString()}</a></div>`;
+                          })
+                          .join("")}
+                      </div>
+                    </div>
                 `
                   )
                   .join("")}
@@ -142,6 +166,14 @@ function toggleOffice(header) {
 
   content.classList.toggle("expanded");
   icon.textContent = content.classList.contains("expanded") ? "▼" : "▶";
+}
+
+// Add this new function to handle toggling days
+function toggleDay(header) {
+  const timesList = header.nextElementSibling;
+  const icon = header.querySelector(".toggle-icon");
+  timesList.classList.toggle("expanded");
+  icon.textContent = timesList.classList.contains("expanded") ? "▼" : "▶";
 }
 
 // Update the DOMContentLoaded event listener
