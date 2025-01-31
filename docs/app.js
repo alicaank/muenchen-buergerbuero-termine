@@ -2,6 +2,25 @@
 let refreshInterval;
 let countdownInterval;
 const REFRESH_INTERVAL = 30000; // 30 seconds
+let CONSTANTS;
+
+
+async function fetchConstants() {
+  try {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/Lars147/muenchen-buergerbuero-termine/refs/heads/main/constants.json"
+    );
+    if (!response.ok) {
+      throw new Error("Failed to load constants");
+    }
+    const constants = await response.json();
+    return constants;
+  } catch (error) {
+    console.error("Error loading constants:", error);
+    return null;
+  }
+}
+
 
 async function loadAppointments() {
   try {
@@ -138,7 +157,10 @@ function displayAppointments(data) {
                         ${(dateData[date].appointmentTimestamps || [])
                           .map((time) => {
                             const appointmentTime = new Date(time * 1000);
-                            return `<div class="time-item"><a target="blank_" href="https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/">${appointmentTime.toLocaleTimeString()}</a></div>`;
+                            
+                            return `<div class="time-item"><a target="blank_" href="https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/${
+                              CONSTANTS.services[serviceName]
+                            }/">${appointmentTime.toLocaleTimeString()}</a></div>`;
                           })
                           .join("")}
                       </div>
@@ -177,7 +199,8 @@ function toggleDay(header) {
 }
 
 // Update the DOMContentLoaded event listener
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  CONSTANTS = await fetchConstants();
   loadAppointments();
 
   // Clear existing interval if any
