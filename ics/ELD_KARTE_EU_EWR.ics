@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - LEONRODSTRASSE
+DTSTART;TZID=Europe/Berlin:20250205T073000
+DTEND;TZID=Europe/Berlin:20250205T074500
+DTSTAMP:20250202T142934Z
+UID:1738737000-LEONRODSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 02.02.2025 15:
+ 29:34 CET (+0100)\nZuletzt geupdated (muenchen.de): 02.02.2025 15:29:29 CE
+ T (+0100)
+LOCATION:Leonrodstraße 21\, 80634 München
+END:VEVENT
 END:VCALENDAR
