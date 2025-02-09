@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - ORLEANSPLATZ
+DTSTART;TZID=Europe/Berlin:20250212T100000
+DTEND;TZID=Europe/Berlin:20250212T101500
+DTSTAMP:20250209T212649Z
+UID:1739350800-ORLEANSPLATZ
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 09.02.2025 22:
+ 26:49 CET (+0100)\nZuletzt geupdated (muenchen.de): 09.02.2025 22:26:44 CE
+ T (+0100)
+LOCATION:Orleansstraße 50\, 81667 München
+END:VEVENT
 END:VCALENDAR
