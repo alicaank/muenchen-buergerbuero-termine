@@ -6,16 +6,18 @@
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139907446
+                "appointmentTimestamps": [
+                    1739169000,
+                    1739170800
+                ],
+                "lastModified": 1739140348468
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139908451
+                "lastModified": 1739140349294
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -27,14 +29,14 @@
                 "appointmentTimestamps": [
                     1739283600
                 ],
-                "lastModified": 1739139910087
+                "lastModified": 1739140350967
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
                     1739354400,
                     1739355000
                 ],
-                "lastModified": 1739139910457
+                "lastModified": 1739140351335
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -43,33 +45,33 @@
                     1739452500,
                     1739458200
                 ],
-                "lastModified": 1739139910837
+                "lastModified": 1739140351707
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739526300,
                     1739527200
                 ],
-                "lastModified": 1739139911213
+                "lastModified": 1739140352069
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
                     1740047700
                 ],
-                "lastModified": 1739139911595
+                "lastModified": 1739140352444
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
                     1740135000
                 ],
-                "lastModified": 1739139911975
+                "lastModified": 1739140352821
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740386700,
                     1740392400
                 ],
-                "lastModified": 1739139912355
+                "lastModified": 1739140353232
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -77,7 +79,7 @@
                     1741701000,
                     1741705500
                 ],
-                "lastModified": 1739139912730
+                "lastModified": 1739140353595
             }
         },
         "RIESENFELDSTRASSE": {
@@ -85,14 +87,14 @@
                 "appointmentTimestamps": [
                     1739268900
                 ],
-                "lastModified": 1739139913776
+                "lastModified": 1739140354398
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
                     1739349900,
                     1739353800
                 ],
-                "lastModified": 1739139914164
+                "lastModified": 1739140354760
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -102,14 +104,14 @@
                     1739461500,
                     1739462400
                 ],
-                "lastModified": 1739139914546
+                "lastModified": 1739140355123
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739518200,
                     1739532300
                 ],
-                "lastModified": 1739139914927
+                "lastModified": 1739140355485
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -118,25 +120,25 @@
                     1739886900,
                     1739891100
                 ],
-                "lastModified": 1739139915303
+                "lastModified": 1739140355847
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740729000
                 ],
-                "lastModified": 1739139915681
+                "lastModified": 1739140356221
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741332000
                 ],
-                "lastModified": 1739139916054
+                "lastModified": 1739140356583
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741589400
                 ],
-                "lastModified": 1739139916426
+                "lastModified": 1739140356955
             }
         },
         "FORSTENRIEDER": {
@@ -146,13 +148,13 @@
                     1739177400,
                     1739181000
                 ],
-                "lastModified": 1739139917265
+                "lastModified": 1739140357857
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
                     1739267400
                 ],
-                "lastModified": 1739139917639
+                "lastModified": 1739140358224
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -162,7 +164,7 @@
                     1739356200,
                     1739358600
                 ],
-                "lastModified": 1739139918012
+                "lastModified": 1739140358759
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -171,7 +173,7 @@
                     1739458200,
                     1739460000
                 ],
-                "lastModified": 1739139918385
+                "lastModified": 1739140359136
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -179,76 +181,80 @@
                     1739523000,
                     1739530500
                 ],
-                "lastModified": 1739139918762
+                "lastModified": 1739140359564
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
                     1739781900
                 ],
-                "lastModified": 1739139919136
+                "lastModified": 1739140359925
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
                     1740050700
                 ],
-                "lastModified": 1739139919543
+                "lastModified": 1739140360295
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
                     1740126900,
                     1740132600
                 ],
-                "lastModified": 1739139919913
+                "lastModified": 1739140360674
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
                     1740492000,
                     1740496800
                 ],
-                "lastModified": 1739139920285
+                "lastModified": 1739140361051
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740566100
                 ],
-                "lastModified": 1739139920664
+                "lastModified": 1739140361422
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
                     1740988200
                 ],
-                "lastModified": 1739139921044
+                "lastModified": 1739140361789
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741261200
                 ],
-                "lastModified": 1739139921409
+                "lastModified": 1739140362158
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741337400,
                     1741343700
                 ],
-                "lastModified": 1739139921780
+                "lastModified": 1739140362530
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741591800
                 ],
-                "lastModified": 1739139922147
+                "lastModified": 1739140362887
             }
         },
         "RUPPERTSTRASSE": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739169000,
+                    1739169300,
+                    1739170800,
+                    1739171100,
                     1739173800,
                     1739178000,
                     1739179200,
                     1739181300,
                     1739186700
                 ],
-                "lastModified": 1739139923126
+                "lastModified": 1739140363843
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -262,7 +268,7 @@
                     1739285400,
                     1739289000
                 ],
-                "lastModified": 1739139923516
+                "lastModified": 1739140364218
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -273,7 +279,7 @@
                     1739350200,
                     1739355300
                 ],
-                "lastModified": 1739139923914
+                "lastModified": 1739140364770
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -284,28 +290,28 @@
                     1739441400,
                     1739443800
                 ],
-                "lastModified": 1739139924323
+                "lastModified": 1739140365156
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739517900,
                     1739532300
                 ],
-                "lastModified": 1739139924712
+                "lastModified": 1739140365536
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739867400,
                     1739893800
                 ],
-                "lastModified": 1739139925110
+                "lastModified": 1739140365913
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739949600,
                     1739960400
                 ],
-                "lastModified": 1739139925505
+                "lastModified": 1739140366319
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -314,7 +320,7 @@
                     1740395700,
                     1740397200
                 ],
-                "lastModified": 1739139925892
+                "lastModified": 1739140366693
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -322,7 +328,7 @@
                     1740488400,
                     1740492900
                 ],
-                "lastModified": 1739139926289
+                "lastModified": 1739140367073
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
@@ -332,27 +338,27 @@
                     1740558900,
                     1740566700
                 ],
-                "lastModified": 1739139926761
+                "lastModified": 1739140367441
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740651300
                 ],
-                "lastModified": 1739139927151
+                "lastModified": 1739140367812
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740729000,
                     1740736800
                 ],
-                "lastModified": 1739139927537
+                "lastModified": 1739140368187
             },
             "2025-03-04": {
                 "appointmentTimestamps": [
                     1741074600,
                     1741075500
                 ],
-                "lastModified": 1739139927932
+                "lastModified": 1739140368567
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
@@ -363,7 +369,7 @@
                     1741168200,
                     1741169700
                 ],
-                "lastModified": 1739139928327
+                "lastModified": 1739140368939
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -375,7 +381,7 @@
                     1741269000,
                     1741275000
                 ],
-                "lastModified": 1739139928720
+                "lastModified": 1739140369310
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -384,7 +390,7 @@
                     1741336200,
                     1741341000
                 ],
-                "lastModified": 1739139929116
+                "lastModified": 1739140369694
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -392,7 +398,7 @@
                     1741596300,
                     1741600200
                 ],
-                "lastModified": 1739139929509
+                "lastModified": 1739140370064
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -403,14 +409,15 @@
                     1741707900,
                     1741708800
                 ],
-                "lastModified": 1739139930160
+                "lastModified": 1739140370458
             }
         },
         "PASING": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139930991
+                "appointmentTimestamps": [
+                    1739170200
+                ],
+                "lastModified": 1739140371276
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -418,7 +425,7 @@
                     1739285400,
                     1739288700
                 ],
-                "lastModified": 1739139931358
+                "lastModified": 1739140371644
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -426,7 +433,7 @@
                     1739347500,
                     1739350200
                 ],
-                "lastModified": 1739139931738
+                "lastModified": 1739140372014
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -436,50 +443,50 @@
                     1739452500,
                     1739456400
                 ],
-                "lastModified": 1739139932111
+                "lastModified": 1739140372375
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739521200
                 ],
-                "lastModified": 1739139932494
+                "lastModified": 1739140372787
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
                     1740480300,
                     1740483600
                 ],
-                "lastModified": 1739139932868
+                "lastModified": 1739140373161
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740665700
                 ],
-                "lastModified": 1739139933243
+                "lastModified": 1739140373526
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
                     1740984300
                 ],
-                "lastModified": 1739139933613
+                "lastModified": 1739140373887
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741258200
                 ],
-                "lastModified": 1739139933995
+                "lastModified": 1739140374258
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741593000
                 ],
-                "lastModified": 1739139934363
+                "lastModified": 1739140374628
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741684800
                 ],
-                "lastModified": 1739139934742
+                "lastModified": 1739140374987
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -491,14 +498,14 @@
                 "appointmentTimestamps": [
                     1739283600
                 ],
-                "lastModified": 1739139936351
+                "lastModified": 1739140376658
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
                     1739354400,
                     1739355000
                 ],
-                "lastModified": 1739139936928
+                "lastModified": 1739140377024
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -507,33 +514,33 @@
                     1739452500,
                     1739458200
                 ],
-                "lastModified": 1739139937309
+                "lastModified": 1739140377387
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739526300,
                     1739527200
                 ],
-                "lastModified": 1739139937758
+                "lastModified": 1739140377753
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
                     1740047700
                 ],
-                "lastModified": 1739139938135
+                "lastModified": 1739140378114
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
                     1740135000
                 ],
-                "lastModified": 1739139938510
+                "lastModified": 1739140378484
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740386700,
                     1740392400
                 ],
-                "lastModified": 1739139938897
+                "lastModified": 1739140378847
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -541,7 +548,7 @@
                     1741701000,
                     1741705500
                 ],
-                "lastModified": 1739139939266
+                "lastModified": 1739140379209
             }
         },
         "RIESENFELDSTRASSE": {
@@ -549,14 +556,14 @@
                 "appointmentTimestamps": [
                     1739268900
                 ],
-                "lastModified": 1739139940226
+                "lastModified": 1739140380667
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
                     1739349900,
                     1739353800
                 ],
-                "lastModified": 1739139940596
+                "lastModified": 1739140381028
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -566,14 +573,14 @@
                     1739461500,
                     1739462400
                 ],
-                "lastModified": 1739139940973
+                "lastModified": 1739140381406
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739518200,
                     1739532300
                 ],
-                "lastModified": 1739139941346
+                "lastModified": 1739140381775
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -582,25 +589,25 @@
                     1739886900,
                     1739891100
                 ],
-                "lastModified": 1739139941717
+                "lastModified": 1739140382136
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740729000
                 ],
-                "lastModified": 1739139942097
+                "lastModified": 1739140382503
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741332000
                 ],
-                "lastModified": 1739139942550
+                "lastModified": 1739140382863
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741589400
                 ],
-                "lastModified": 1739139942924
+                "lastModified": 1739140383232
             }
         },
         "FORSTENRIEDER": {
@@ -610,13 +617,13 @@
                     1739177400,
                     1739181000
                 ],
-                "lastModified": 1739139944032
+                "lastModified": 1739140384034
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
                     1739267400
                 ],
-                "lastModified": 1739139944415
+                "lastModified": 1739140384488
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -626,7 +633,7 @@
                     1739356200,
                     1739358600
                 ],
-                "lastModified": 1739139944801
+                "lastModified": 1739140385047
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -635,7 +642,7 @@
                     1739458200,
                     1739460000
                 ],
-                "lastModified": 1739139945190
+                "lastModified": 1739140385413
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -643,76 +650,80 @@
                     1739523000,
                     1739530500
                 ],
-                "lastModified": 1739139945576
+                "lastModified": 1739140385776
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
                     1739781900
                 ],
-                "lastModified": 1739139945952
+                "lastModified": 1739140386155
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
                     1740050700
                 ],
-                "lastModified": 1739139946338
+                "lastModified": 1739140386525
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
                     1740126900,
                     1740132600
                 ],
-                "lastModified": 1739139946953
+                "lastModified": 1739140386893
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
                     1740492000,
                     1740496800
                 ],
-                "lastModified": 1739139947326
+                "lastModified": 1739140387263
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740566100
                 ],
-                "lastModified": 1739139947698
+                "lastModified": 1739140387636
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
                     1740988200
                 ],
-                "lastModified": 1739139948137
+                "lastModified": 1739140388011
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741261200
                 ],
-                "lastModified": 1739139948518
+                "lastModified": 1739140388380
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741337400,
                     1741343700
                 ],
-                "lastModified": 1739139948893
+                "lastModified": 1739140388761
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741591800
                 ],
-                "lastModified": 1739139949272
+                "lastModified": 1739140389125
             }
         },
         "RUPPERTSTRASSE": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739169000,
+                    1739169300,
+                    1739170800,
+                    1739171100,
                     1739173800,
                     1739178000,
                     1739179200,
                     1739181300,
                     1739186700
                 ],
-                "lastModified": 1739139950426
+                "lastModified": 1739140390107
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -726,7 +737,7 @@
                     1739285400,
                     1739289000
                 ],
-                "lastModified": 1739139950836
+                "lastModified": 1739140390484
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -737,7 +748,7 @@
                     1739350200,
                     1739355300
                 ],
-                "lastModified": 1739139951236
+                "lastModified": 1739140390917
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -748,28 +759,28 @@
                     1739441400,
                     1739443800
                 ],
-                "lastModified": 1739139951628
+                "lastModified": 1739140391301
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739517900,
                     1739532300
                 ],
-                "lastModified": 1739139952042
+                "lastModified": 1739140391678
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739867400,
                     1739893800
                 ],
-                "lastModified": 1739139952436
+                "lastModified": 1739140392052
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739949600,
                     1739960400
                 ],
-                "lastModified": 1739139952831
+                "lastModified": 1739140392436
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -778,7 +789,7 @@
                     1740395700,
                     1740397200
                 ],
-                "lastModified": 1739139953233
+                "lastModified": 1739140392828
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -786,7 +797,7 @@
                     1740488400,
                     1740492900
                 ],
-                "lastModified": 1739139953633
+                "lastModified": 1739140393228
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
@@ -796,27 +807,27 @@
                     1740558900,
                     1740566700
                 ],
-                "lastModified": 1739139954018
+                "lastModified": 1739140393614
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740651300
                 ],
-                "lastModified": 1739139954555
+                "lastModified": 1739140393987
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740729000,
                     1740736800
                 ],
-                "lastModified": 1739139954951
+                "lastModified": 1739140394361
             },
             "2025-03-04": {
                 "appointmentTimestamps": [
                     1741074600,
                     1741075500
                 ],
-                "lastModified": 1739139955332
+                "lastModified": 1739140394944
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
@@ -827,7 +838,7 @@
                     1741168200,
                     1741169700
                 ],
-                "lastModified": 1739139955717
+                "lastModified": 1739140395329
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -839,7 +850,7 @@
                     1741269000,
                     1741275000
                 ],
-                "lastModified": 1739139956100
+                "lastModified": 1739140395702
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -848,7 +859,7 @@
                     1741336200,
                     1741341000
                 ],
-                "lastModified": 1739139956480
+                "lastModified": 1739140396090
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -856,7 +867,7 @@
                     1741596300,
                     1741600200
                 ],
-                "lastModified": 1739139956969
+                "lastModified": 1739140396475
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -867,14 +878,15 @@
                     1741707900,
                     1741708800
                 ],
-                "lastModified": 1739139957367
+                "lastModified": 1739140396862
             }
         },
         "PASING": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139958194
+                "appointmentTimestamps": [
+                    1739170200
+                ],
+                "lastModified": 1739140397696
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -882,7 +894,7 @@
                     1739285400,
                     1739288700
                 ],
-                "lastModified": 1739139958567
+                "lastModified": 1739140398058
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -890,7 +902,7 @@
                     1739347500,
                     1739350200
                 ],
-                "lastModified": 1739139958941
+                "lastModified": 1739140398422
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -900,50 +912,50 @@
                     1739452500,
                     1739456400
                 ],
-                "lastModified": 1739139959324
+                "lastModified": 1739140398792
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
                     1739521200
                 ],
-                "lastModified": 1739139959697
+                "lastModified": 1739140399160
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
                     1740480300,
                     1740483600
                 ],
-                "lastModified": 1739139960072
+                "lastModified": 1739140399530
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740665700
                 ],
-                "lastModified": 1739139960454
+                "lastModified": 1739140399889
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
                     1740984300
                 ],
-                "lastModified": 1739139960850
+                "lastModified": 1739140400258
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741258200
                 ],
-                "lastModified": 1739139961230
+                "lastModified": 1739140400617
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741593000
                 ],
-                "lastModified": 1739139961602
+                "lastModified": 1739140400984
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741684800
                 ],
-                "lastModified": 1739139961984
+                "lastModified": 1739140401352
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -955,16 +967,18 @@
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139965421
+                "appointmentTimestamps": [
+                    1739169000,
+                    1739170800
+                ],
+                "lastModified": 1739140404435
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139966278
+                "lastModified": 1739140405278
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -976,16 +990,18 @@
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139969460
+                "appointmentTimestamps": [
+                    1739169000,
+                    1739170800
+                ],
+                "lastModified": 1739140408550
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139970486
+                "lastModified": 1739140409342
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -997,16 +1013,18 @@
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139973874
+                "appointmentTimestamps": [
+                    1739169000,
+                    1739170800
+                ],
+                "lastModified": 1739140412646
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139974739
+                "lastModified": 1739140413564
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -1018,16 +1036,18 @@
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139978099
+                "appointmentTimestamps": [
+                    1739169000,
+                    1739170800
+                ],
+                "lastModified": 1739140416689
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739139978946
+                "lastModified": 1739140417751
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -1040,21 +1060,22 @@
                     1739169600,
                     1739185500
                 ],
-                "lastModified": 1739139980192
+                "lastModified": 1739140418863
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
                     1739272500,
                     1739274300
                 ],
-                "lastModified": 1739139980732
+                "lastModified": 1739140419221
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
+                    1739348400,
                     1739352600,
                     1739360700
                 ],
-                "lastModified": 1739139981106
+                "lastModified": 1739140419592
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -1064,7 +1085,7 @@
                     1739445300,
                     1739447100
                 ],
-                "lastModified": 1739139981568
+                "lastModified": 1739140419955
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -1074,14 +1095,14 @@
                     1739529900,
                     1739533500
                 ],
-                "lastModified": 1739139981962
+                "lastModified": 1739140420313
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740652200,
                     1740656700
                 ],
-                "lastModified": 1739139982336
+                "lastModified": 1739140420942
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -1089,26 +1110,26 @@
                     1740996000,
                     1740999300
                 ],
-                "lastModified": 1739139982709
+                "lastModified": 1739140421301
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741160100,
                     1741167000
                 ],
-                "lastModified": 1739139983094
+                "lastModified": 1739140421661
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741256100
                 ],
-                "lastModified": 1739139983468
+                "lastModified": 1739140422036
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741338900
                 ],
-                "lastModified": 1739139983844
+                "lastModified": 1739140422396
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -1116,7 +1137,7 @@
                     1741603500,
                     1741604100
                 ],
-                "lastModified": 1739139984228
+                "lastModified": 1739140422766
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -1124,7 +1145,7 @@
                     1741686000,
                     1741705500
                 ],
-                "lastModified": 1739139984603
+                "lastModified": 1739140423163
             }
         },
         "LEONRODSTRASSE": {
@@ -1132,7 +1153,7 @@
                 "appointmentTimestamps": [
                     1739187900
                 ],
-                "lastModified": 1739139985432
+                "lastModified": 1739140423985
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -1143,7 +1164,7 @@
                     1739283600,
                     1739283900
                 ],
-                "lastModified": 1739139985814
+                "lastModified": 1739140424346
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -1157,7 +1178,7 @@
                     1739355900,
                     1739360700
                 ],
-                "lastModified": 1739139986201
+                "lastModified": 1739140424705
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -1175,7 +1196,7 @@
                     1739458200,
                     1739458500
                 ],
-                "lastModified": 1739139986580
+                "lastModified": 1739140425080
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -1191,26 +1212,26 @@
                     1739528700,
                     1739533500
                 ],
-                "lastModified": 1739139986954
+                "lastModified": 1739140425452
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
                     1739786100
                 ],
-                "lastModified": 1739139987336
+                "lastModified": 1739140425808
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739877300,
                     1739890500
                 ],
-                "lastModified": 1739139987708
+                "lastModified": 1739140426178
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739952600
                 ],
-                "lastModified": 1739139988094
+                "lastModified": 1739140426533
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -1219,7 +1240,7 @@
                     1740048000,
                     1740051900
                 ],
-                "lastModified": 1739139988482
+                "lastModified": 1739140426901
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -1227,7 +1248,7 @@
                     1740135300,
                     1740136500
                 ],
-                "lastModified": 1739139988857
+                "lastModified": 1739140427263
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -1237,21 +1258,21 @@
                     1740392400,
                     1740392700
                 ],
-                "lastModified": 1739139989228
+                "lastModified": 1739140427872
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
                     1740478800,
                     1740483900
                 ],
-                "lastModified": 1739139989760
+                "lastModified": 1739140428242
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740567600,
                     1740570300
                 ],
-                "lastModified": 1739139990143
+                "lastModified": 1739140428609
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -1260,38 +1281,38 @@
                     1740665700,
                     1740667800
                 ],
-                "lastModified": 1739139990519
+                "lastModified": 1739140428979
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
                     1741001400
                 ],
-                "lastModified": 1739139990893
+                "lastModified": 1739140429344
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741171500
                 ],
-                "lastModified": 1739139991272
+                "lastModified": 1739140429704
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741261500
                 ],
-                "lastModified": 1739139991656
+                "lastModified": 1739140430079
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741339500,
                     1741347900
                 ],
-                "lastModified": 1739139992038
+                "lastModified": 1739140430436
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741607100
                 ],
-                "lastModified": 1739139992426
+                "lastModified": 1739140430797
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -1305,7 +1326,7 @@
                     1741705800,
                     1741708500
                 ],
-                "lastModified": 1739139992805
+                "lastModified": 1739140431167
             }
         },
         "RIESENFELDSTRASSE": {
@@ -1316,7 +1337,7 @@
                     1739178900,
                     1739187900
                 ],
-                "lastModified": 1739139993676
+                "lastModified": 1739140431948
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -1332,7 +1353,7 @@
                     1739288400,
                     1739289300
                 ],
-                "lastModified": 1739139994233
+                "lastModified": 1739140432320
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -1347,7 +1368,7 @@
                     1739358900,
                     1739360700
                 ],
-                "lastModified": 1739139994623
+                "lastModified": 1739140432693
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -1371,7 +1392,7 @@
                     1739462700,
                     1739464800
                 ],
-                "lastModified": 1739139995014
+                "lastModified": 1739140433067
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -1382,7 +1403,7 @@
                     1739532600,
                     1739533500
                 ],
-                "lastModified": 1739139995540
+                "lastModified": 1739140433427
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -1390,7 +1411,7 @@
                     1739790000,
                     1739792700
                 ],
-                "lastModified": 1739139995917
+                "lastModified": 1739140433796
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -1403,14 +1424,14 @@
                     1739891100,
                     1739891400
                 ],
-                "lastModified": 1739139996300
+                "lastModified": 1739140434155
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739955000,
                     1739962800
                 ],
-                "lastModified": 1739139996679
+                "lastModified": 1739140434524
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -1418,13 +1439,13 @@
                     1740045900,
                     1740051900
                 ],
-                "lastModified": 1739139997056
+                "lastModified": 1739140434893
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740389400
                 ],
-                "lastModified": 1739139997438
+                "lastModified": 1739140435251
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -1432,20 +1453,20 @@
                     1740482100,
                     1740492300
                 ],
-                "lastModified": 1739139997820
+                "lastModified": 1739140435611
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740570300
                 ],
-                "lastModified": 1739139998201
+                "lastModified": 1739140436011
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740654900,
                     1740655800
                 ],
-                "lastModified": 1739139998585
+                "lastModified": 1739140436384
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
@@ -1454,13 +1475,13 @@
                     1740729300,
                     1740743100
                 ],
-                "lastModified": 1739139998959
+                "lastModified": 1739140436746
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741174200
                 ],
-                "lastModified": 1739139999328
+                "lastModified": 1739140437099
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -1469,7 +1490,7 @@
                     1741277100,
                     1741279200
                 ],
-                "lastModified": 1739140000013
+                "lastModified": 1739140437458
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -1479,7 +1500,7 @@
                     1741341300,
                     1741347000
                 ],
-                "lastModified": 1739140000386
+                "lastModified": 1739140437820
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -1488,14 +1509,14 @@
                     1741589700,
                     1741603500
                 ],
-                "lastModified": 1739140000761
+                "lastModified": 1739140438284
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741704000,
                     1741708800
                 ],
-                "lastModified": 1739140001137
+                "lastModified": 1739140438750
             }
         },
         "FORSTENRIEDER": {
@@ -1517,7 +1538,7 @@
                     1739187000,
                     1739187900
                 ],
-                "lastModified": 1739140002035
+                "lastModified": 1739140439542
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -1532,7 +1553,7 @@
                     1739287500,
                     1739289000
                 ],
-                "lastModified": 1739140002418
+                "lastModified": 1739140439903
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -1553,7 +1574,7 @@
                     1739359800,
                     1739360700
                 ],
-                "lastModified": 1739140002817
+                "lastModified": 1739140440268
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -1569,7 +1590,7 @@
                     1739460300,
                     1739461800
                 ],
-                "lastModified": 1739140003195
+                "lastModified": 1739140440629
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -1585,7 +1606,7 @@
                     1739530800,
                     1739533500
                 ],
-                "lastModified": 1739140003570
+                "lastModified": 1739140441020
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -1593,21 +1614,21 @@
                     1739782200,
                     1739790900
                 ],
-                "lastModified": 1739140003940
+                "lastModified": 1739140441380
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739867400,
                     1739877300
                 ],
-                "lastModified": 1739140004447
+                "lastModified": 1739140441863
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739962500,
                     1739963700
                 ],
-                "lastModified": 1739140004827
+                "lastModified": 1739140442221
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -1615,7 +1636,7 @@
                     1740050700,
                     1740051000
                 ],
-                "lastModified": 1739140005199
+                "lastModified": 1739140442580
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -1624,14 +1645,14 @@
                     1740132600,
                     1740132900
                 ],
-                "lastModified": 1739140005575
+                "lastModified": 1739140442937
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740392400,
                     1740397500
                 ],
-                "lastModified": 1739140005952
+                "lastModified": 1739140443295
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -1644,14 +1665,14 @@
                     1740496800,
                     1740497100
                 ],
-                "lastModified": 1739140006578
+                "lastModified": 1739140443658
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740566100,
                     1740566400
                 ],
-                "lastModified": 1739140006960
+                "lastModified": 1739140444029
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -1659,14 +1680,14 @@
                     1740668400,
                     1740669900
                 ],
-                "lastModified": 1739140007331
+                "lastModified": 1739140444389
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740737400,
                     1740739500
                 ],
-                "lastModified": 1739140007767
+                "lastModified": 1739140444758
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -1674,13 +1695,13 @@
                     1740988200,
                     1740988500
                 ],
-                "lastModified": 1739140008136
+                "lastModified": 1739140445117
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741171500
                 ],
-                "lastModified": 1739140008517
+                "lastModified": 1739140445484
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -1689,7 +1710,7 @@
                     1741261200,
                     1741261500
                 ],
-                "lastModified": 1739140008891
+                "lastModified": 1739140445844
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -1699,7 +1720,7 @@
                     1741344000,
                     1741347000
                 ],
-                "lastModified": 1739140009263
+                "lastModified": 1739140446218
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -1709,18 +1730,24 @@
                     1741598100,
                     1741607100
                 ],
-                "lastModified": 1739140009639
+                "lastModified": 1739140446591
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741689900
                 ],
-                "lastModified": 1739140010011
+                "lastModified": 1739140446949
             }
         },
         "RUPPERTSTRASSE": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739169000,
+                    1739169300,
+                    1739169600,
+                    1739170800,
+                    1739171100,
+                    1739171400,
                     1739172300,
                     1739173800,
                     1739174100,
@@ -1741,7 +1768,7 @@
                     1739187000,
                     1739187900
                 ],
-                "lastModified": 1739140010988
+                "lastModified": 1739140447875
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -1784,7 +1811,7 @@
                     1739289600,
                     1739290200
                 ],
-                "lastModified": 1739140011395
+                "lastModified": 1739140448268
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -1812,7 +1839,7 @@
                     1739359800,
                     1739360700
                 ],
-                "lastModified": 1739140011790
+                "lastModified": 1739140448654
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -1848,7 +1875,7 @@
                     1739461800,
                     1739463900
                 ],
-                "lastModified": 1739140012213
+                "lastModified": 1739140449058
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -1874,7 +1901,7 @@
                     1739532600,
                     1739533500
                 ],
-                "lastModified": 1739140012772
+                "lastModified": 1739140449449
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -1882,7 +1909,7 @@
                     1739787900,
                     1739792700
                 ],
-                "lastModified": 1739140013177
+                "lastModified": 1739140449819
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -1894,7 +1921,7 @@
                     1739893800,
                     1739894100
                 ],
-                "lastModified": 1739140013752
+                "lastModified": 1739140450207
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
@@ -1907,7 +1934,7 @@
                     1739964600,
                     1739965500
                 ],
-                "lastModified": 1739140014138
+                "lastModified": 1739140450581
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -1917,7 +1944,7 @@
                     1740058500,
                     1740064500
                 ],
-                "lastModified": 1739140014543
+                "lastModified": 1739140450954
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -1927,7 +1954,7 @@
                     1740133800,
                     1740138300
                 ],
-                "lastModified": 1739140014932
+                "lastModified": 1739140451324
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -1941,7 +1968,7 @@
                     1740397200,
                     1740397500
                 ],
-                "lastModified": 1739140015343
+                "lastModified": 1739140451711
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -1958,7 +1985,7 @@
                     1740493200,
                     1740501600
                 ],
-                "lastModified": 1739140015751
+                "lastModified": 1739140452097
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
@@ -1976,7 +2003,7 @@
                     1740568200,
                     1740570300
                 ],
-                "lastModified": 1739140016139
+                "lastModified": 1739140452476
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -1992,7 +2019,7 @@
                     1740671100,
                     1740671400
                 ],
-                "lastModified": 1739140016560
+                "lastModified": 1739140452861
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
@@ -2008,7 +2035,7 @@
                     1740741300,
                     1740742200
                 ],
-                "lastModified": 1739140016954
+                "lastModified": 1739140453242
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -2018,7 +2045,7 @@
                     1740999300,
                     1741002300
                 ],
-                "lastModified": 1739140017347
+                "lastModified": 1739140453613
             },
             "2025-03-04": {
                 "appointmentTimestamps": [
@@ -2029,7 +2056,7 @@
                     1741075500,
                     1741075800
                 ],
-                "lastModified": 1739140017732
+                "lastModified": 1739140453985
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
@@ -2050,7 +2077,7 @@
                     1741174200,
                     1741175100
                 ],
-                "lastModified": 1739140018121
+                "lastModified": 1739140454359
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -2077,7 +2104,7 @@
                     1741275300,
                     1741277400
                 ],
-                "lastModified": 1739140018513
+                "lastModified": 1739140454750
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -2096,7 +2123,7 @@
                     1741345800,
                     1741347000
                 ],
-                "lastModified": 1739140018901
+                "lastModified": 1739140455132
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -2110,7 +2137,7 @@
                     1741600800,
                     1741607100
                 ],
-                "lastModified": 1739140019300
+                "lastModified": 1739140455532
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -2132,17 +2159,19 @@
                     1741708800,
                     1741709100
                 ],
-                "lastModified": 1739140019690
+                "lastModified": 1739140455906
             }
         },
         "PASING": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739170200,
                     1739170500,
+                    1739170800,
                     1739181000,
                     1739187900
                 ],
-                "lastModified": 1739140020570
+                "lastModified": 1739140456698
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -2159,7 +2188,7 @@
                     1739288700,
                     1739289000
                 ],
-                "lastModified": 1739140020976
+                "lastModified": 1739140457066
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -2172,7 +2201,7 @@
                     1739351700,
                     1739360700
                 ],
-                "lastModified": 1739140021373
+                "lastModified": 1739140457424
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -2195,7 +2224,7 @@
                     1739459700,
                     1739464800
                 ],
-                "lastModified": 1739140021766
+                "lastModified": 1739140457795
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -2206,19 +2235,19 @@
                     1739531700,
                     1739533500
                 ],
-                "lastModified": 1739140022149
+                "lastModified": 1739140458164
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739962500
                 ],
-                "lastModified": 1739140022528
+                "lastModified": 1739140458621
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
                     1740045600
                 ],
-                "lastModified": 1739140022907
+                "lastModified": 1739140458977
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -2226,14 +2255,14 @@
                     1740126300,
                     1740138000
                 ],
-                "lastModified": 1739140023292
+                "lastModified": 1739140459337
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740378600,
                     1740388500
                 ],
-                "lastModified": 1739140023672
+                "lastModified": 1739140459694
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -2243,7 +2272,7 @@
                     1740483900,
                     1740494700
                 ],
-                "lastModified": 1739140024047
+                "lastModified": 1739140460056
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -2253,13 +2282,13 @@
                     1740666000,
                     1740670800
                 ],
-                "lastModified": 1739140024415
+                "lastModified": 1739140460415
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740737700
                 ],
-                "lastModified": 1739140024788
+                "lastModified": 1739140460780
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -2267,13 +2296,13 @@
                     1740984600,
                     1741002300
                 ],
-                "lastModified": 1739140025165
+                "lastModified": 1739140461138
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741172400
                 ],
-                "lastModified": 1739140025534
+                "lastModified": 1739140461496
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -2282,7 +2311,7 @@
                     1741259700,
                     1741272000
                 ],
-                "lastModified": 1739140025918
+                "lastModified": 1739140461857
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -2290,7 +2319,7 @@
                     1741344000,
                     1741347900
                 ],
-                "lastModified": 1739140026303
+                "lastModified": 1739140462212
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -2298,7 +2327,7 @@
                     1741593300,
                     1741606200
                 ],
-                "lastModified": 1739140026676
+                "lastModified": 1739140462744
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -2306,7 +2335,7 @@
                     1741685100,
                     1741693500
                 ],
-                "lastModified": 1739140027072
+                "lastModified": 1739140463115
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -2318,16 +2347,18 @@
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739140030605
+                "appointmentTimestamps": [
+                    1739169000,
+                    1739170800
+                ],
+                "lastModified": 1739140466344
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739140031434
+                "lastModified": 1739140467158
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -2340,21 +2371,22 @@
                     1739169600,
                     1739185500
                 ],
-                "lastModified": 1739140032601
+                "lastModified": 1739140468252
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
                     1739272500,
                     1739274300
                 ],
-                "lastModified": 1739140032987
+                "lastModified": 1739140468622
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
+                    1739348400,
                     1739352600,
                     1739360700
                 ],
-                "lastModified": 1739140033356
+                "lastModified": 1739140468982
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -2364,7 +2396,7 @@
                     1739445300,
                     1739447100
                 ],
-                "lastModified": 1739140033727
+                "lastModified": 1739140469344
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -2374,14 +2406,14 @@
                     1739529900,
                     1739533500
                 ],
-                "lastModified": 1739140034107
+                "lastModified": 1739140469706
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740652200,
                     1740656700
                 ],
-                "lastModified": 1739140034486
+                "lastModified": 1739140470074
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -2389,26 +2421,26 @@
                     1740996000,
                     1740999300
                 ],
-                "lastModified": 1739140035222
+                "lastModified": 1739140470443
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741160100,
                     1741167000
                 ],
-                "lastModified": 1739140035597
+                "lastModified": 1739140470799
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741256100
                 ],
-                "lastModified": 1739140035978
+                "lastModified": 1739140471169
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741338900
                 ],
-                "lastModified": 1739140036354
+                "lastModified": 1739140471527
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -2416,7 +2448,7 @@
                     1741603500,
                     1741604100
                 ],
-                "lastModified": 1739140036727
+                "lastModified": 1739140471894
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -2424,7 +2456,7 @@
                     1741686000,
                     1741705500
                 ],
-                "lastModified": 1739140037097
+                "lastModified": 1739140472250
             }
         },
         "LEONRODSTRASSE": {
@@ -2432,7 +2464,7 @@
                 "appointmentTimestamps": [
                     1739187900
                 ],
-                "lastModified": 1739140038098
+                "lastModified": 1739140473062
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -2443,7 +2475,7 @@
                     1739283600,
                     1739283900
                 ],
-                "lastModified": 1739140038480
+                "lastModified": 1739140473435
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -2457,7 +2489,7 @@
                     1739355900,
                     1739360700
                 ],
-                "lastModified": 1739140038855
+                "lastModified": 1739140473809
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -2475,7 +2507,7 @@
                     1739458200,
                     1739458500
                 ],
-                "lastModified": 1739140039226
+                "lastModified": 1739140474179
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -2491,26 +2523,26 @@
                     1739528700,
                     1739533500
                 ],
-                "lastModified": 1739140039777
+                "lastModified": 1739140474542
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
                     1739786100
                 ],
-                "lastModified": 1739140040158
+                "lastModified": 1739140474897
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739877300,
                     1739890500
                 ],
-                "lastModified": 1739140040531
+                "lastModified": 1739140475269
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739952600
                 ],
-                "lastModified": 1739140040918
+                "lastModified": 1739140475642
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -2519,7 +2551,7 @@
                     1740048000,
                     1740051900
                 ],
-                "lastModified": 1739140041301
+                "lastModified": 1739140476009
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -2527,7 +2559,7 @@
                     1740135300,
                     1740136500
                 ],
-                "lastModified": 1739140041682
+                "lastModified": 1739140476366
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -2537,21 +2569,21 @@
                     1740392400,
                     1740392700
                 ],
-                "lastModified": 1739140042296
+                "lastModified": 1739140476733
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
                     1740478800,
                     1740483900
                 ],
-                "lastModified": 1739140042674
+                "lastModified": 1739140477099
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740567600,
                     1740570300
                 ],
-                "lastModified": 1739140043047
+                "lastModified": 1739140477458
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -2560,38 +2592,38 @@
                     1740665700,
                     1740667800
                 ],
-                "lastModified": 1739140043469
+                "lastModified": 1739140477818
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
                     1741001400
                 ],
-                "lastModified": 1739140043906
+                "lastModified": 1739140478177
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741171500
                 ],
-                "lastModified": 1739140044284
+                "lastModified": 1739140478542
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741261500
                 ],
-                "lastModified": 1739140044664
+                "lastModified": 1739140478911
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741339500,
                     1741347900
                 ],
-                "lastModified": 1739140045046
+                "lastModified": 1739140479271
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741607100
                 ],
-                "lastModified": 1739140045425
+                "lastModified": 1739140479637
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -2605,7 +2637,7 @@
                     1741705800,
                     1741708500
                 ],
-                "lastModified": 1739140045803
+                "lastModified": 1739140480009
             }
         },
         "RIESENFELDSTRASSE": {
@@ -2616,7 +2648,7 @@
                     1739178900,
                     1739187900
                 ],
-                "lastModified": 1739140046634
+                "lastModified": 1739140480797
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -2632,7 +2664,7 @@
                     1739288400,
                     1739289300
                 ],
-                "lastModified": 1739140047005
+                "lastModified": 1739140481157
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -2647,7 +2679,7 @@
                     1739358900,
                     1739360700
                 ],
-                "lastModified": 1739140047378
+                "lastModified": 1739140481526
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -2671,7 +2703,7 @@
                     1739462700,
                     1739464800
                 ],
-                "lastModified": 1739140047756
+                "lastModified": 1739140481891
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -2682,7 +2714,7 @@
                     1739532600,
                     1739533500
                 ],
-                "lastModified": 1739140048126
+                "lastModified": 1739140482251
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -2690,7 +2722,7 @@
                     1739790000,
                     1739792700
                 ],
-                "lastModified": 1739140048500
+                "lastModified": 1739140482744
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -2703,14 +2735,14 @@
                     1739891100,
                     1739891400
                 ],
-                "lastModified": 1739140048874
+                "lastModified": 1739140483105
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739955000,
                     1739962800
                 ],
-                "lastModified": 1739140049256
+                "lastModified": 1739140483477
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -2718,13 +2750,13 @@
                     1740045900,
                     1740051900
                 ],
-                "lastModified": 1739140049670
+                "lastModified": 1739140483852
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740389400
                 ],
-                "lastModified": 1739140050035
+                "lastModified": 1739140484218
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -2732,20 +2764,20 @@
                     1740482100,
                     1740492300
                 ],
-                "lastModified": 1739140050546
+                "lastModified": 1739140484587
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740570300
                 ],
-                "lastModified": 1739140050931
+                "lastModified": 1739140485048
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740654900,
                     1740655800
                 ],
-                "lastModified": 1739140051317
+                "lastModified": 1739140485408
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
@@ -2754,13 +2786,13 @@
                     1740729300,
                     1740743100
                 ],
-                "lastModified": 1739140051688
+                "lastModified": 1739140485767
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741174200
                 ],
-                "lastModified": 1739140052070
+                "lastModified": 1739140486292
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -2769,7 +2801,7 @@
                     1741277100,
                     1741279200
                 ],
-                "lastModified": 1739140052442
+                "lastModified": 1739140486658
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -2779,7 +2811,7 @@
                     1741341300,
                     1741347000
                 ],
-                "lastModified": 1739140052823
+                "lastModified": 1739140487024
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -2788,14 +2820,14 @@
                     1741589700,
                     1741603500
                 ],
-                "lastModified": 1739140053194
+                "lastModified": 1739140487391
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741704000,
                     1741708800
                 ],
-                "lastModified": 1739140053565
+                "lastModified": 1739140487829
             }
         },
         "FORSTENRIEDER": {
@@ -2817,7 +2849,7 @@
                     1739187000,
                     1739187900
                 ],
-                "lastModified": 1739140054409
+                "lastModified": 1739140488634
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -2832,7 +2864,7 @@
                     1739287500,
                     1739289000
                 ],
-                "lastModified": 1739140054798
+                "lastModified": 1739140488996
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -2853,7 +2885,7 @@
                     1739359800,
                     1739360700
                 ],
-                "lastModified": 1739140055246
+                "lastModified": 1739140489366
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -2869,7 +2901,7 @@
                     1739460300,
                     1739461800
                 ],
-                "lastModified": 1739140055635
+                "lastModified": 1739140489738
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -2885,7 +2917,7 @@
                     1739530800,
                     1739533500
                 ],
-                "lastModified": 1739140056021
+                "lastModified": 1739140490110
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -2893,21 +2925,21 @@
                     1739782200,
                     1739790900
                 ],
-                "lastModified": 1739140056394
+                "lastModified": 1739140490469
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739867400,
                     1739877300
                 ],
-                "lastModified": 1739140056839
+                "lastModified": 1739140490846
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739962500,
                     1739963700
                 ],
-                "lastModified": 1739140057232
+                "lastModified": 1739140491201
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -2915,7 +2947,7 @@
                     1740050700,
                     1740051000
                 ],
-                "lastModified": 1739140057766
+                "lastModified": 1739140491576
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -2924,14 +2956,14 @@
                     1740132600,
                     1740132900
                 ],
-                "lastModified": 1739140058147
+                "lastModified": 1739140491941
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740392400,
                     1740397500
                 ],
-                "lastModified": 1739140058531
+                "lastModified": 1739140492298
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -2944,14 +2976,14 @@
                     1740496800,
                     1740497100
                 ],
-                "lastModified": 1739140058904
+                "lastModified": 1739140492661
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740566100,
                     1740566400
                 ],
-                "lastModified": 1739140059280
+                "lastModified": 1739140493105
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -2959,14 +2991,14 @@
                     1740668400,
                     1740669900
                 ],
-                "lastModified": 1739140059660
+                "lastModified": 1739140493467
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740737400,
                     1740739500
                 ],
-                "lastModified": 1739140060038
+                "lastModified": 1739140493841
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -2974,13 +3006,13 @@
                     1740988200,
                     1740988500
                 ],
-                "lastModified": 1739140060418
+                "lastModified": 1739140494212
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741171500
                 ],
-                "lastModified": 1739140060846
+                "lastModified": 1739140494568
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -2989,7 +3021,7 @@
                     1741261200,
                     1741261500
                 ],
-                "lastModified": 1739140061219
+                "lastModified": 1739140494930
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -2999,7 +3031,7 @@
                     1741344000,
                     1741347000
                 ],
-                "lastModified": 1739140061591
+                "lastModified": 1739140495297
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -3009,18 +3041,24 @@
                     1741598100,
                     1741607100
                 ],
-                "lastModified": 1739140061969
+                "lastModified": 1739140495760
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741689900
                 ],
-                "lastModified": 1739140062337
+                "lastModified": 1739140496119
             }
         },
         "RUPPERTSTRASSE": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739169000,
+                    1739169300,
+                    1739169600,
+                    1739170800,
+                    1739171100,
+                    1739171400,
                     1739172300,
                     1739173800,
                     1739174100,
@@ -3041,7 +3079,7 @@
                     1739187000,
                     1739187900
                 ],
-                "lastModified": 1739140063400
+                "lastModified": 1739140497062
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -3084,7 +3122,7 @@
                     1739289600,
                     1739290200
                 ],
-                "lastModified": 1739140063848
+                "lastModified": 1739140497465
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -3112,7 +3150,7 @@
                     1739359800,
                     1739360700
                 ],
-                "lastModified": 1739140064243
+                "lastModified": 1739140497853
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -3148,7 +3186,7 @@
                     1739461800,
                     1739463900
                 ],
-                "lastModified": 1739140064642
+                "lastModified": 1739140498249
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -3174,7 +3212,7 @@
                     1739532600,
                     1739533500
                 ],
-                "lastModified": 1739140065037
+                "lastModified": 1739140498632
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -3182,7 +3220,7 @@
                     1739787900,
                     1739792700
                 ],
-                "lastModified": 1739140065427
+                "lastModified": 1739140499012
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -3194,7 +3232,7 @@
                     1739893800,
                     1739894100
                 ],
-                "lastModified": 1739140065814
+                "lastModified": 1739140499406
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
@@ -3207,7 +3245,7 @@
                     1739964600,
                     1739965500
                 ],
-                "lastModified": 1739140066195
+                "lastModified": 1739140499780
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -3217,7 +3255,7 @@
                     1740058500,
                     1740064500
                 ],
-                "lastModified": 1739140066578
+                "lastModified": 1739140500153
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -3227,7 +3265,7 @@
                     1740133800,
                     1740138300
                 ],
-                "lastModified": 1739140067001
+                "lastModified": 1739140500547
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -3241,7 +3279,7 @@
                     1740397200,
                     1740397500
                 ],
-                "lastModified": 1739140067389
+                "lastModified": 1739140500936
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -3258,7 +3296,7 @@
                     1740493200,
                     1740501600
                 ],
-                "lastModified": 1739140067783
+                "lastModified": 1739140501560
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
@@ -3276,7 +3314,7 @@
                     1740568200,
                     1740570300
                 ],
-                "lastModified": 1739140068167
+                "lastModified": 1739140501947
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -3292,7 +3330,7 @@
                     1740671100,
                     1740671400
                 ],
-                "lastModified": 1739140068560
+                "lastModified": 1739140502338
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
@@ -3308,7 +3346,7 @@
                     1740741300,
                     1740742200
                 ],
-                "lastModified": 1739140068945
+                "lastModified": 1739140502889
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -3318,7 +3356,7 @@
                     1740999300,
                     1741002300
                 ],
-                "lastModified": 1739140069329
+                "lastModified": 1739140503274
             },
             "2025-03-04": {
                 "appointmentTimestamps": [
@@ -3329,7 +3367,7 @@
                     1741075500,
                     1741075800
                 ],
-                "lastModified": 1739140070242
+                "lastModified": 1739140503641
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
@@ -3350,7 +3388,7 @@
                     1741174200,
                     1741175100
                 ],
-                "lastModified": 1739140070641
+                "lastModified": 1739140504110
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -3377,7 +3415,7 @@
                     1741275300,
                     1741277400
                 ],
-                "lastModified": 1739140071043
+                "lastModified": 1739140504502
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -3396,7 +3434,7 @@
                     1741345800,
                     1741347000
                 ],
-                "lastModified": 1739140071426
+                "lastModified": 1739140504933
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -3410,7 +3448,7 @@
                     1741600800,
                     1741607100
                 ],
-                "lastModified": 1739140071812
+                "lastModified": 1739140505322
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -3432,17 +3470,19 @@
                     1741708800,
                     1741709100
                 ],
-                "lastModified": 1739140072219
+                "lastModified": 1739140505712
             }
         },
         "PASING": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739170200,
                     1739170500,
+                    1739170800,
                     1739181000,
                     1739187900
                 ],
-                "lastModified": 1739140073104
+                "lastModified": 1739140506542
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -3459,7 +3499,7 @@
                     1739288700,
                     1739289000
                 ],
-                "lastModified": 1739140073486
+                "lastModified": 1739140506921
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -3472,7 +3512,7 @@
                     1739351700,
                     1739360700
                 ],
-                "lastModified": 1739140073954
+                "lastModified": 1739140507291
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -3495,7 +3535,7 @@
                     1739459700,
                     1739464800
                 ],
-                "lastModified": 1739140074330
+                "lastModified": 1739140507664
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -3506,19 +3546,19 @@
                     1739531700,
                     1739533500
                 ],
-                "lastModified": 1739140074709
+                "lastModified": 1739140508026
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739962500
                 ],
-                "lastModified": 1739140075090
+                "lastModified": 1739140508394
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
                     1740045600
                 ],
-                "lastModified": 1739140075502
+                "lastModified": 1739140508753
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -3526,14 +3566,14 @@
                     1740126300,
                     1740138000
                 ],
-                "lastModified": 1739140075872
+                "lastModified": 1739140509127
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740378600,
                     1740388500
                 ],
-                "lastModified": 1739140076241
+                "lastModified": 1739140509488
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -3543,7 +3583,7 @@
                     1740483900,
                     1740494700
                 ],
-                "lastModified": 1739140076617
+                "lastModified": 1739140509855
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -3553,13 +3593,13 @@
                     1740666000,
                     1740670800
                 ],
-                "lastModified": 1739140076995
+                "lastModified": 1739140510229
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740737700
                 ],
-                "lastModified": 1739140077374
+                "lastModified": 1739140510832
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -3567,13 +3607,13 @@
                     1740984600,
                     1741002300
                 ],
-                "lastModified": 1739140077756
+                "lastModified": 1739140511196
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741172400
                 ],
-                "lastModified": 1739140078287
+                "lastModified": 1739140511556
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -3582,7 +3622,7 @@
                     1741259700,
                     1741272000
                 ],
-                "lastModified": 1739140078654
+                "lastModified": 1739140512132
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -3590,7 +3630,7 @@
                     1741344000,
                     1741347900
                 ],
-                "lastModified": 1739140079028
+                "lastModified": 1739140512489
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -3598,7 +3638,7 @@
                     1741593300,
                     1741606200
                 ],
-                "lastModified": 1739140079395
+                "lastModified": 1739140512852
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -3606,7 +3646,7 @@
                     1741685100,
                     1741693500
                 ],
-                "lastModified": 1739140079766
+                "lastModified": 1739140513217
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -3620,14 +3660,14 @@
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739140083808
+                "lastModified": 1739140516569
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739140084717
+                "lastModified": 1739140517409
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -3640,21 +3680,22 @@
                     1739169600,
                     1739185500
                 ],
-                "lastModified": 1739140086044
+                "lastModified": 1739140518528
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
                     1739272500,
                     1739274300
                 ],
-                "lastModified": 1739140086485
+                "lastModified": 1739140518886
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
+                    1739348400,
                     1739352600,
                     1739360700
                 ],
-                "lastModified": 1739140086863
+                "lastModified": 1739140519244
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -3664,7 +3705,7 @@
                     1739445300,
                     1739447100
                 ],
-                "lastModified": 1739140087246
+                "lastModified": 1739140519621
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -3674,14 +3715,14 @@
                     1739529900,
                     1739533500
                 ],
-                "lastModified": 1739140087618
+                "lastModified": 1739140519979
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740652200,
                     1740656700
                 ],
-                "lastModified": 1739140088028
+                "lastModified": 1739140520341
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -3689,26 +3730,26 @@
                     1740996000,
                     1740999300
                 ],
-                "lastModified": 1739140088398
+                "lastModified": 1739140520704
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741160100,
                     1741167000
                 ],
-                "lastModified": 1739140088779
+                "lastModified": 1739140521066
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741256100
                 ],
-                "lastModified": 1739140089151
+                "lastModified": 1739140521432
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741338900
                 ],
-                "lastModified": 1739140089521
+                "lastModified": 1739140521815
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -3716,7 +3757,7 @@
                     1741603500,
                     1741604100
                 ],
-                "lastModified": 1739140089907
+                "lastModified": 1739140522285
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -3724,7 +3765,7 @@
                     1741686000,
                     1741705500
                 ],
-                "lastModified": 1739140090287
+                "lastModified": 1739140522961
             }
         },
         "LEONRODSTRASSE": {
@@ -3732,7 +3773,7 @@
                 "appointmentTimestamps": [
                     1739187900
                 ],
-                "lastModified": 1739140091126
+                "lastModified": 1739140523807
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -3743,7 +3784,7 @@
                     1739283600,
                     1739283900
                 ],
-                "lastModified": 1739140091503
+                "lastModified": 1739140524172
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -3757,7 +3798,7 @@
                     1739355900,
                     1739360700
                 ],
-                "lastModified": 1739140091932
+                "lastModified": 1739140524555
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -3775,7 +3816,7 @@
                     1739458200,
                     1739458500
                 ],
-                "lastModified": 1739140092316
+                "lastModified": 1739140525132
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -3791,26 +3832,26 @@
                     1739528700,
                     1739533500
                 ],
-                "lastModified": 1739140092688
+                "lastModified": 1739140525492
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
                     1739786100
                 ],
-                "lastModified": 1739140093067
+                "lastModified": 1739140525852
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739877300,
                     1739890500
                 ],
-                "lastModified": 1739140093448
+                "lastModified": 1739140526211
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739952600
                 ],
-                "lastModified": 1739140093819
+                "lastModified": 1739140526580
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -3819,7 +3860,7 @@
                     1740048000,
                     1740051900
                 ],
-                "lastModified": 1739140094204
+                "lastModified": 1739140526943
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -3827,7 +3868,7 @@
                     1740135300,
                     1740136500
                 ],
-                "lastModified": 1739140094574
+                "lastModified": 1739140527302
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -3837,21 +3878,21 @@
                     1740392400,
                     1740392700
                 ],
-                "lastModified": 1739140094959
+                "lastModified": 1739140527909
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
                     1740478800,
                     1740483900
                 ],
-                "lastModified": 1739140095330
+                "lastModified": 1739140528276
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740567600,
                     1740570300
                 ],
-                "lastModified": 1739140095697
+                "lastModified": 1739140528647
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -3860,38 +3901,38 @@
                     1740665700,
                     1740667800
                 ],
-                "lastModified": 1739140096260
+                "lastModified": 1739140529009
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
                     1741001400
                 ],
-                "lastModified": 1739140096764
+                "lastModified": 1739140529376
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741171500
                 ],
-                "lastModified": 1739140097137
+                "lastModified": 1739140529744
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
                     1741261500
                 ],
-                "lastModified": 1739140097505
+                "lastModified": 1739140530116
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
                     1741339500,
                     1741347900
                 ],
-                "lastModified": 1739140097890
+                "lastModified": 1739140530480
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
                     1741607100
                 ],
-                "lastModified": 1739140098271
+                "lastModified": 1739140530839
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -3905,7 +3946,7 @@
                     1741705800,
                     1741708500
                 ],
-                "lastModified": 1739140098645
+                "lastModified": 1739140531212
             }
         },
         "RIESENFELDSTRASSE": {
@@ -3916,7 +3957,7 @@
                     1739178900,
                     1739187900
                 ],
-                "lastModified": 1739140099682
+                "lastModified": 1739140532001
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -3932,7 +3973,7 @@
                     1739288400,
                     1739289300
                 ],
-                "lastModified": 1739140100057
+                "lastModified": 1739140532366
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -3947,7 +3988,7 @@
                     1739358900,
                     1739360700
                 ],
-                "lastModified": 1739140100433
+                "lastModified": 1739140532739
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -3971,7 +4012,7 @@
                     1739462700,
                     1739464800
                 ],
-                "lastModified": 1739140100890
+                "lastModified": 1739140533121
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -3982,7 +4023,7 @@
                     1739532600,
                     1739533500
                 ],
-                "lastModified": 1739140101260
+                "lastModified": 1739140533481
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -3990,7 +4031,7 @@
                     1739790000,
                     1739792700
                 ],
-                "lastModified": 1739140101633
+                "lastModified": 1739140533840
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -4003,14 +4044,14 @@
                     1739891100,
                     1739891400
                 ],
-                "lastModified": 1739140102001
+                "lastModified": 1739140534204
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739955000,
                     1739962800
                 ],
-                "lastModified": 1739140102385
+                "lastModified": 1739140534571
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -4018,13 +4059,13 @@
                     1740045900,
                     1740051900
                 ],
-                "lastModified": 1739140102953
+                "lastModified": 1739140534939
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740389400
                 ],
-                "lastModified": 1739140103346
+                "lastModified": 1739140535346
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -4032,20 +4073,20 @@
                     1740482100,
                     1740492300
                 ],
-                "lastModified": 1739140103729
+                "lastModified": 1739140535707
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740570300
                 ],
-                "lastModified": 1739140104103
+                "lastModified": 1739140536076
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
                     1740654900,
                     1740655800
                 ],
-                "lastModified": 1739140104477
+                "lastModified": 1739140536453
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
@@ -4054,13 +4095,13 @@
                     1740729300,
                     1740743100
                 ],
-                "lastModified": 1739140104848
+                "lastModified": 1739140536825
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741174200
                 ],
-                "lastModified": 1739140105216
+                "lastModified": 1739140537187
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -4069,7 +4110,7 @@
                     1741277100,
                     1741279200
                 ],
-                "lastModified": 1739140105586
+                "lastModified": 1739140537559
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -4079,7 +4120,7 @@
                     1741341300,
                     1741347000
                 ],
-                "lastModified": 1739140105966
+                "lastModified": 1739140537928
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -4088,14 +4129,14 @@
                     1741589700,
                     1741603500
                 ],
-                "lastModified": 1739140106337
+                "lastModified": 1739140538289
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741704000,
                     1741708800
                 ],
-                "lastModified": 1739140106714
+                "lastModified": 1739140538662
             }
         },
         "FORSTENRIEDER": {
@@ -4117,7 +4158,7 @@
                     1739187000,
                     1739187900
                 ],
-                "lastModified": 1739140108149
+                "lastModified": 1739140539555
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -4132,7 +4173,7 @@
                     1739287500,
                     1739289000
                 ],
-                "lastModified": 1739140108534
+                "lastModified": 1739140539927
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -4153,7 +4194,7 @@
                     1739359800,
                     1739360700
                 ],
-                "lastModified": 1739140108905
+                "lastModified": 1739140540300
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -4169,7 +4210,7 @@
                     1739460300,
                     1739461800
                 ],
-                "lastModified": 1739140109279
+                "lastModified": 1739140540677
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -4185,7 +4226,7 @@
                     1739530800,
                     1739533500
                 ],
-                "lastModified": 1739140109667
+                "lastModified": 1739140541048
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -4193,21 +4234,21 @@
                     1739782200,
                     1739790900
                 ],
-                "lastModified": 1739140110045
+                "lastModified": 1739140541414
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
                     1739867400,
                     1739877300
                 ],
-                "lastModified": 1739140110413
+                "lastModified": 1739140541780
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739962500,
                     1739963700
                 ],
-                "lastModified": 1739140110784
+                "lastModified": 1739140542157
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -4215,7 +4256,7 @@
                     1740050700,
                     1740051000
                 ],
-                "lastModified": 1739140111154
+                "lastModified": 1739140542517
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -4224,14 +4265,14 @@
                     1740132600,
                     1740132900
                 ],
-                "lastModified": 1739140111523
+                "lastModified": 1739140542888
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740392400,
                     1740397500
                 ],
-                "lastModified": 1739140111905
+                "lastModified": 1739140543243
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -4244,14 +4285,14 @@
                     1740496800,
                     1740497100
                 ],
-                "lastModified": 1739140112275
+                "lastModified": 1739140543602
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
                     1740566100,
                     1740566400
                 ],
-                "lastModified": 1739140112655
+                "lastModified": 1739140543959
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -4259,14 +4300,14 @@
                     1740668400,
                     1740669900
                 ],
-                "lastModified": 1739140113037
+                "lastModified": 1739140544320
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740737400,
                     1740739500
                 ],
-                "lastModified": 1739140113411
+                "lastModified": 1739140544762
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -4274,13 +4315,13 @@
                     1740988200,
                     1740988500
                 ],
-                "lastModified": 1739140113787
+                "lastModified": 1739140545124
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741171500
                 ],
-                "lastModified": 1739140114162
+                "lastModified": 1739140545485
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -4289,7 +4330,7 @@
                     1741261200,
                     1741261500
                 ],
-                "lastModified": 1739140114547
+                "lastModified": 1739140545846
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -4299,7 +4340,7 @@
                     1741344000,
                     1741347000
                 ],
-                "lastModified": 1739140114923
+                "lastModified": 1739140546209
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -4309,18 +4350,24 @@
                     1741598100,
                     1741607100
                 ],
-                "lastModified": 1739140115303
+                "lastModified": 1739140546568
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
                     1741689900
                 ],
-                "lastModified": 1739140115684
+                "lastModified": 1739140547169
             }
         },
         "RUPPERTSTRASSE": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739169000,
+                    1739169300,
+                    1739169600,
+                    1739170800,
+                    1739171100,
+                    1739171400,
                     1739172300,
                     1739173800,
                     1739174100,
@@ -4341,7 +4388,7 @@
                     1739187000,
                     1739187900
                 ],
-                "lastModified": 1739140116634
+                "lastModified": 1739140548171
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -4384,7 +4431,7 @@
                     1739289600,
                     1739290200
                 ],
-                "lastModified": 1739140117034
+                "lastModified": 1739140548569
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -4412,7 +4459,7 @@
                     1739359800,
                     1739360700
                 ],
-                "lastModified": 1739140117425
+                "lastModified": 1739140548966
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -4448,7 +4495,7 @@
                     1739461800,
                     1739463900
                 ],
-                "lastModified": 1739140117818
+                "lastModified": 1739140549359
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -4474,7 +4521,7 @@
                     1739532600,
                     1739533500
                 ],
-                "lastModified": 1739140118208
+                "lastModified": 1739140549765
             },
             "2025-02-17": {
                 "appointmentTimestamps": [
@@ -4482,7 +4529,7 @@
                     1739787900,
                     1739792700
                 ],
-                "lastModified": 1739140118602
+                "lastModified": 1739140550132
             },
             "2025-02-18": {
                 "appointmentTimestamps": [
@@ -4494,7 +4541,7 @@
                     1739893800,
                     1739894100
                 ],
-                "lastModified": 1739140118988
+                "lastModified": 1739140550515
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
@@ -4507,7 +4554,7 @@
                     1739964600,
                     1739965500
                 ],
-                "lastModified": 1739140119370
+                "lastModified": 1739140550895
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
@@ -4517,7 +4564,7 @@
                     1740058500,
                     1740064500
                 ],
-                "lastModified": 1739140119752
+                "lastModified": 1739140551268
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -4527,7 +4574,7 @@
                     1740133800,
                     1740138300
                 ],
-                "lastModified": 1739140120149
+                "lastModified": 1739140551644
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
@@ -4541,7 +4588,7 @@
                     1740397200,
                     1740397500
                 ],
-                "lastModified": 1739140120527
+                "lastModified": 1739140552015
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -4558,7 +4605,7 @@
                     1740493200,
                     1740501600
                 ],
-                "lastModified": 1739140120915
+                "lastModified": 1739140552395
             },
             "2025-02-26": {
                 "appointmentTimestamps": [
@@ -4576,7 +4623,7 @@
                     1740568200,
                     1740570300
                 ],
-                "lastModified": 1739140121312
+                "lastModified": 1739140552767
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -4592,7 +4639,7 @@
                     1740671100,
                     1740671400
                 ],
-                "lastModified": 1739140121715
+                "lastModified": 1739140553138
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
@@ -4608,7 +4655,7 @@
                     1740741300,
                     1740742200
                 ],
-                "lastModified": 1739140122096
+                "lastModified": 1739140553522
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -4618,7 +4665,7 @@
                     1740999300,
                     1741002300
                 ],
-                "lastModified": 1739140122489
+                "lastModified": 1739140553899
             },
             "2025-03-04": {
                 "appointmentTimestamps": [
@@ -4629,7 +4676,7 @@
                     1741075500,
                     1741075800
                 ],
-                "lastModified": 1739140122879
+                "lastModified": 1739140554281
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
@@ -4650,7 +4697,7 @@
                     1741174200,
                     1741175100
                 ],
-                "lastModified": 1739140123274
+                "lastModified": 1739140554673
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -4677,7 +4724,7 @@
                     1741275300,
                     1741277400
                 ],
-                "lastModified": 1739140123672
+                "lastModified": 1739140555052
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -4696,7 +4743,7 @@
                     1741345800,
                     1741347000
                 ],
-                "lastModified": 1739140124057
+                "lastModified": 1739140555444
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -4710,7 +4757,7 @@
                     1741600800,
                     1741607100
                 ],
-                "lastModified": 1739140124441
+                "lastModified": 1739140555831
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -4732,17 +4779,19 @@
                     1741708800,
                     1741709100
                 ],
-                "lastModified": 1739140124839
+                "lastModified": 1739140556214
             }
         },
         "PASING": {
             "2025-02-10": {
                 "appointmentTimestamps": [
+                    1739170200,
                     1739170500,
+                    1739170800,
                     1739181000,
                     1739187900
                 ],
-                "lastModified": 1739140125660
+                "lastModified": 1739140557029
             },
             "2025-02-11": {
                 "appointmentTimestamps": [
@@ -4759,7 +4808,7 @@
                     1739288700,
                     1739289000
                 ],
-                "lastModified": 1739140126041
+                "lastModified": 1739140557410
             },
             "2025-02-12": {
                 "appointmentTimestamps": [
@@ -4772,7 +4821,7 @@
                     1739351700,
                     1739360700
                 ],
-                "lastModified": 1739140126407
+                "lastModified": 1739140557773
             },
             "2025-02-13": {
                 "appointmentTimestamps": [
@@ -4795,7 +4844,7 @@
                     1739459700,
                     1739464800
                 ],
-                "lastModified": 1739140126797
+                "lastModified": 1739140558146
             },
             "2025-02-14": {
                 "appointmentTimestamps": [
@@ -4806,19 +4855,19 @@
                     1739531700,
                     1739533500
                 ],
-                "lastModified": 1739140127185
+                "lastModified": 1739140558506
             },
             "2025-02-19": {
                 "appointmentTimestamps": [
                     1739962500
                 ],
-                "lastModified": 1739140128559
+                "lastModified": 1739140558873
             },
             "2025-02-20": {
                 "appointmentTimestamps": [
                     1740045600
                 ],
-                "lastModified": 1739140128930
+                "lastModified": 1739140559235
             },
             "2025-02-21": {
                 "appointmentTimestamps": [
@@ -4826,14 +4875,14 @@
                     1740126300,
                     1740138000
                 ],
-                "lastModified": 1739140129303
+                "lastModified": 1739140559601
             },
             "2025-02-24": {
                 "appointmentTimestamps": [
                     1740378600,
                     1740388500
                 ],
-                "lastModified": 1739140129671
+                "lastModified": 1739140559954
             },
             "2025-02-25": {
                 "appointmentTimestamps": [
@@ -4843,7 +4892,7 @@
                     1740483900,
                     1740494700
                 ],
-                "lastModified": 1739140130054
+                "lastModified": 1739140560313
             },
             "2025-02-27": {
                 "appointmentTimestamps": [
@@ -4853,13 +4902,13 @@
                     1740666000,
                     1740670800
                 ],
-                "lastModified": 1739140130433
+                "lastModified": 1739140560712
             },
             "2025-02-28": {
                 "appointmentTimestamps": [
                     1740737700
                 ],
-                "lastModified": 1739140130814
+                "lastModified": 1739140561075
             },
             "2025-03-03": {
                 "appointmentTimestamps": [
@@ -4867,13 +4916,13 @@
                     1740984600,
                     1741002300
                 ],
-                "lastModified": 1739140131184
+                "lastModified": 1739140561533
             },
             "2025-03-05": {
                 "appointmentTimestamps": [
                     1741172400
                 ],
-                "lastModified": 1739140131563
+                "lastModified": 1739140562055
             },
             "2025-03-06": {
                 "appointmentTimestamps": [
@@ -4882,7 +4931,7 @@
                     1741259700,
                     1741272000
                 ],
-                "lastModified": 1739140131955
+                "lastModified": 1739140562429
             },
             "2025-03-07": {
                 "appointmentTimestamps": [
@@ -4890,7 +4939,7 @@
                     1741344000,
                     1741347900
                 ],
-                "lastModified": 1739140132319
+                "lastModified": 1739140562821
             },
             "2025-03-10": {
                 "appointmentTimestamps": [
@@ -4898,7 +4947,7 @@
                     1741593300,
                     1741606200
                 ],
-                "lastModified": 1739140132689
+                "lastModified": 1739140563187
             },
             "2025-03-11": {
                 "appointmentTimestamps": [
@@ -4906,7 +4955,7 @@
                     1741685100,
                     1741693500
                 ],
-                "lastModified": 1739140133058
+                "lastModified": 1739140563552
             }
         },
         "AUSLAENDERBEHOERDE": {}
@@ -4918,16 +4967,18 @@
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-02-10": {
-                "errorCode": "appointmentNotAvailable",
-                "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739140136364
+                "appointmentTimestamps": [
+                    1739169000,
+                    1739170800
+                ],
+                "lastModified": 1739140567210
             }
         },
         "PASING": {
             "2025-02-10": {
                 "errorCode": "appointmentNotAvailable",
                 "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar",
-                "lastModified": 1739140137202
+                "lastModified": 1739140568007
             }
         },
         "AUSLAENDERBEHOERDE": {}
