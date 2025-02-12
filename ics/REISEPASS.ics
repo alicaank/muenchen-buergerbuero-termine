@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:REISEPASS - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250213T162000
+DTEND;TZID=Europe/Berlin:20250213T163500
+DTSTAMP:20250212T172902Z
+UID:1739460000-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 12.02.2025 18:2
+ 9:02 CET (+0100)\nZuletzt geupdated (muenchen.de): 12.02.2025 18:25:05 CET
+  (+0100)
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
 END:VCALENDAR
