@@ -3,4 +3,28 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:REISEPASS - ORLEANSPLATZ
+DTSTART;TZID=Europe/Berlin:20250213T083000
+DTEND;TZID=Europe/Berlin:20250213T084500
+DTSTAMP:20250212T185143Z
+UID:1739431800-ORLEANSPLATZ
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 12.02.2025 19:5
+ 1:43 CET (+0100)\nZuletzt geupdated (muenchen.de): 12.02.2025 19:46:00 CET
+  (+0100)
+LOCATION:Orleansstraße 50\, 81667 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:REISEPASS - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250220T173000
+DTEND;TZID=Europe/Berlin:20250220T174500
+DTSTAMP:20250212T185143Z
+UID:1740069000-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 12.02.2025 19:5
+ 1:43 CET (+0100)\nZuletzt geupdated (muenchen.de): 12.02.2025 19:46:04 CET
+  (+0100)
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
 END:VCALENDAR
