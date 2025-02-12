@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:REISEPASS - ORLEANSPLATZ
+DTSTART;TZID=Europe/Berlin:20250213T103000
+DTEND;TZID=Europe/Berlin:20250213T104500
+DTSTAMP:20250212T225417Z
+UID:1739439000-ORLEANSPLATZ
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 12.02.2025 23:5
+ 4:17 CET (+0100)\nZuletzt geupdated (muenchen.de): 12.02.2025 23:50:35 CET
+  (+0100)
+LOCATION:Orleansstraße 50\, 81667 München
+END:VEVENT
 END:VCALENDAR
