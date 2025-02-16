@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//PERSONALAUSWEIS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250217T104500
+DTEND;TZID=Europe/Berlin:20250217T110000
+DTSTAMP:20250216T061828Z
+UID:1739785500-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 16.02.2025 07:1
+ 8:28 CET (+0100)\nZuletzt geupdated (muenchen.de): 16.02.2025 07:15:46 CET
+  (+0100)
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
 END:VCALENDAR
