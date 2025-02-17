@@ -4,6 +4,10 @@ let CONSTANTS;
 // Global variable for storing the last GitHub metadata timestamp
 let lastGithubTimestamp = null;
 
+// Global variables for ticking last update
+let lastUpdateInterval = null;
+let currentMetadataTimestamp = null;
+
 async function fetchConstants() {
   try {
     const response = await fetch(
@@ -106,14 +110,28 @@ function displayAppointments(data, metadataTimestamp) {
   const lastUpdateElement = document.getElementById("lastUpdate");
   const tocList = document.querySelector("#tableOfContents ul");
 
+  // Store the current metadata timestamp globally for ticker updates
+  currentMetadataTimestamp = metadataTimestamp;
+
   if (metadataTimestamp) {
     const absoluteTime = new Date(metadataTimestamp).toLocaleString();
-    const relativeTime = getRelativeTime(metadataTimestamp);
-    lastUpdateElement.textContent = `Last updated: ${absoluteTime} (${relativeTime})`;
+    lastUpdateElement.textContent = `Last updated: ${absoluteTime} (${getRelativeTime(metadataTimestamp)})`;
   } else {
     const now = new Date();
     lastUpdateElement.textContent = `Last updated: ${now.toLocaleString()} (just now)`;
   }
+
+  // Clear any existing ticker
+  if (lastUpdateInterval) {
+    clearInterval(lastUpdateInterval);
+  }
+  // Start a ticker to update the relative time every second
+  lastUpdateInterval = setInterval(() => {
+    if (currentMetadataTimestamp) {
+      const absoluteTime = new Date(currentMetadataTimestamp).toLocaleString();
+      lastUpdateElement.textContent = `Last updated: ${absoluteTime} (${getRelativeTime(currentMetadataTimestamp)})`;
+    }
+  }, 1000);
 
   loadingDiv.style.display = "none";
   contentDiv.innerHTML = "";
