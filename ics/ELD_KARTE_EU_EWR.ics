@@ -3,4 +3,40 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - ORLEANSPLATZ
+DTSTART;TZID=Europe/Berlin:20250218T084500
+DTEND;TZID=Europe/Berlin:20250218T090000
+DTSTAMP:20250218T000924Z
+UID:1739864700-ORLEANSPLATZ
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 18.02.2025 01:
+ 09:24 CET (+0100)\nZuletzt geupdated (muenchen.de): 18.02.2025 01:09:16 CE
+ T (+0100)
+LOCATION:Orleansstraße 50\, 81667 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250218T083500
+DTEND;TZID=Europe/Berlin:20250218T085000
+DTSTAMP:20250218T000924Z
+UID:1739864100-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 18.02.2025 01:
+ 09:24 CET (+0100)\nZuletzt geupdated (muenchen.de): 18.02.2025 01:09:20 CE
+ T (+0100)
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - PASING
+DTSTART;TZID=Europe/Berlin:20250219T073000
+DTEND;TZID=Europe/Berlin:20250219T074500
+DTSTAMP:20250218T000924Z
+UID:1739946600-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 18.02.2025 01:
+ 09:24 CET (+0100)\nZuletzt geupdated (muenchen.de): 18.02.2025 01:09:22 CE
+ T (+0100)
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
 END:VCALENDAR
