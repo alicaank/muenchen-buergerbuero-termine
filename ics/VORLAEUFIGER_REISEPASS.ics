@@ -3,4 +3,28 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//VORLAEUFIGER_REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:VORLAEUFIGER_REISEPASS - FORSTENRIEDER
+DTSTART;TZID=Europe/Berlin:20250305T073000
+DTEND;TZID=Europe/Berlin:20250305T074500
+DTSTAMP:20250304T222008Z
+UID:1741156200-FORSTENRIEDER
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1080582/\n\nZuletzt abgerufen: 04.03.2025 23:2
+ 0:08 CET (+0100)\nZuletzt geupdated (muenchen.de): 04.03.2025 23:16:00 CET
+  (+0100)
+LOCATION:Forstenrieder Allee 61a\, 81476 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VORLAEUFIGER_REISEPASS - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250305T090000
+DTEND;TZID=Europe/Berlin:20250305T091500
+DTSTAMP:20250304T222008Z
+UID:1741161600-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1080582/\n\nZuletzt abgerufen: 04.03.2025 23:2
+ 0:08 CET (+0100)\nZuletzt geupdated (muenchen.de): 04.03.2025 23:16:01 CET
+  (+0100)
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
 END:VCALENDAR
