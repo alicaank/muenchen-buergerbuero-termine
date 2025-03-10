@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - RIESENFELDSTRASSE
+DTSTART;TZID=Europe/Berlin:20250311T084500
+DTEND;TZID=Europe/Berlin:20250311T090000
+DTSTAMP:20250310T185616Z
+UID:1741679100-RIESENFELDSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 10.03.2025 19:
+ 56:16 CET (+0100)\nZuletzt geupdated (muenchen.de): 10.03.2025 19:56:12 CE
+ T (+0100)
+LOCATION:Riesenfeldstraße 75\, 80809 München
+END:VEVENT
 END:VCALENDAR
