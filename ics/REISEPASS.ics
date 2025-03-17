@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:REISEPASS - FORSTENRIEDER
+DTSTART;TZID=Europe/Berlin:20250325T171500
+DTEND;TZID=Europe/Berlin:20250325T173000
+DTSTAMP:20250317T203901Z
+UID:1742919300-FORSTENRIEDER
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 17.03.2025 21:3
+ 9:01 CET (+0100)\nZuletzt geupdated (muenchen.de): 17.03.2025 21:34:09 CET
+  (+0100)
+LOCATION:Forstenrieder Allee 61a\, 81476 München
+END:VEVENT
 END:VCALENDAR
