@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//PERSONALAUSWEIS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - ORLEANSPLATZ
+DTSTART;TZID=Europe/Berlin:20250325T150000
+DTEND;TZID=Europe/Berlin:20250325T151500
+DTSTAMP:20250317T164453Z
+UID:1742911200-ORLEANSPLATZ
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 17.03.2025 17:4
+ 4:53 CET (+0100)\nZuletzt geupdated (muenchen.de): 17.03.2025 17:41:22 CET
+  (+0100)
+LOCATION:Orleansstraße 50\, 81667 München
+END:VEVENT
 END:VCALENDAR
