@@ -3,4 +3,28 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//PERSONALAUSWEIS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - ORLEANSPLATZ
+DTSTART;TZID=Europe/Berlin:20250328T095500
+DTEND;TZID=Europe/Berlin:20250328T101000
+DTSTAMP:20250324T225438Z
+UID:1743152100-ORLEANSPLATZ
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 24.03.2025 23:5
+ 4:38 CET (+0100)\nZuletzt geupdated (muenchen.de): 24.03.2025 23:51:45 CET
+  (+0100)
+LOCATION:Orleansstraße 50\, 81667 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - FORSTENRIEDER
+DTSTART;TZID=Europe/Berlin:20250325T111500
+DTEND;TZID=Europe/Berlin:20250325T113000
+DTSTAMP:20250324T225438Z
+UID:1742897700-FORSTENRIEDER
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 24.03.2025 23:5
+ 4:38 CET (+0100)\nZuletzt geupdated (muenchen.de): 24.03.2025 23:51:47 CET
+  (+0100)
+LOCATION:Forstenrieder Allee 61a\, 81476 München
+END:VEVENT
 END:VCALENDAR
