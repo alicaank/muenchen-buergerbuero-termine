@@ -3,4 +3,28 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250410T162500
+DTEND;TZID=Europe/Berlin:20250410T164000
+DTSTAMP:20250407T180516Z
+UID:1744295100-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 07.04.2025 20:
+ 05:16 CEST (+0200)\nZuletzt geupdated (muenchen.de): 07.04.2025 20:05:13 C
+ EST (+0200)
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - PASING
+DTSTART;TZID=Europe/Berlin:20250409T105000
+DTEND;TZID=Europe/Berlin:20250409T110500
+DTSTAMP:20250407T180516Z
+UID:1744188600-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 07.04.2025 20:
+ 05:16 CEST (+0200)\nZuletzt geupdated (muenchen.de): 07.04.2025 20:05:14 C
+ EST (+0200)
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
 END:VCALENDAR
