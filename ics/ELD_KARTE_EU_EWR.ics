@@ -3,4 +3,28 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - FORSTENRIEDER
+DTSTART;TZID=Europe/Berlin:20250411T090000
+DTEND;TZID=Europe/Berlin:20250411T091500
+DTSTAMP:20250409T173759Z
+UID:1744354800-FORSTENRIEDER
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 09.04.2025 19:
+ 37:59 CEST (+0200)\nZuletzt geupdated (muenchen.de): 09.04.2025 19:37:56 C
+ EST (+0200)
+LOCATION:Forstenrieder Allee 61a\, 81476 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250410T091500
+DTEND;TZID=Europe/Berlin:20250410T093000
+DTSTAMP:20250409T173759Z
+UID:1744269300-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 09.04.2025 19:
+ 37:59 CEST (+0200)\nZuletzt geupdated (muenchen.de): 09.04.2025 19:37:57 C
+ EST (+0200)
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
 END:VCALENDAR
