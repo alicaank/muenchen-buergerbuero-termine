@@ -3,4 +3,28 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//PERSONALAUSWEIS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - PASING
+DTSTART;TZID=Europe/Berlin:20250416T095500
+DTEND;TZID=Europe/Berlin:20250416T101000
+DTSTAMP:20250412T203049Z
+UID:1744790100-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 12.04.2025 22:3
+ 0:49 CEST (+0200)\nZuletzt geupdated (muenchen.de): 12.04.2025 22:27:09 CE
+ ST (+0200)
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - PASING
+DTSTART;TZID=Europe/Berlin:20250416T100000
+DTEND;TZID=Europe/Berlin:20250416T101500
+DTSTAMP:20250412T203049Z
+UID:1744790400-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 12.04.2025 22:3
+ 0:49 CEST (+0200)\nZuletzt geupdated (muenchen.de): 12.04.2025 22:27:09 CE
+ ST (+0200)
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
 END:VCALENDAR
