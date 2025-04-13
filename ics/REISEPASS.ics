@@ -3,4 +3,28 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:REISEPASS - PASING
+DTSTART;TZID=Europe/Berlin:20250414T120000
+DTEND;TZID=Europe/Berlin:20250414T121500
+DTSTAMP:20250413T054114Z
+UID:1744624800-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 13.04.2025 07:4
+ 1:14 CEST (+0200)\nZuletzt geupdated (muenchen.de): 13.04.2025 07:37:55 CE
+ ST (+0200)
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:REISEPASS - PASING
+DTSTART;TZID=Europe/Berlin:20250414T120500
+DTEND;TZID=Europe/Berlin:20250414T122000
+DTSTAMP:20250413T054114Z
+UID:1744625100-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 13.04.2025 07:4
+ 1:14 CEST (+0200)\nZuletzt geupdated (muenchen.de): 13.04.2025 07:37:55 CE
+ ST (+0200)
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
 END:VCALENDAR
