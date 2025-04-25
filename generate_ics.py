@@ -58,6 +58,10 @@ def generate_ics_for_category(service, appointments):
             # If there's an errorCode, skip
             if "errorCode" in info:
                 continue
+            if info.get('lastModified'):
+                last_modified = datetime.fromtimestamp(int(info['lastModified']) / 1000, tz=TZ).strftime('%d.%m.%Y %H:%M:%S %Z (%z)')
+            else:
+                last_modified = "N/A"
 
             # appointmentTimestamps is the list of start times (epoch)
             timestamps = info.get("appointmentTimestamps", [])
@@ -74,7 +78,7 @@ def generate_ics_for_category(service, appointments):
                 event.add('description',
                     f"Termin buchen: https://stadt.muenchen.de/buergerservice/terminvereinbarung.html#/services/{service.value}/\n\n"
                     f"Zuletzt abgerufen: {now.strftime('%d.%m.%Y %H:%M:%S %Z (%z)')}\n"
-                    f"Zuletzt geupdated (muenchen.de): {datetime.fromtimestamp(int(info['lastModified']) / 1000, tz=TZ).strftime('%d.%m.%Y %H:%M:%S %Z (%z)')}"
+                    f"Zuletzt geupdated (muenchen.de): {last_modified}"
                 )
                 # Unique identifier for the event
                 event['uid'] = f"{start_ts}-{office_name.replace(' ', '_')}"
