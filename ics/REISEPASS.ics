@@ -3,4 +3,37 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//REISEPASS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:REISEPASS - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250428T090000
+DTEND;TZID=Europe/Berlin:20250428T091500
+DTSTAMP:20250427T144929Z
+UID:1745823600-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 27.04.2025 16:4
+ 9:29 CEST (+0200)\nZuletzt geupdated (muenchen.de): N/A
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:REISEPASS - PASING
+DTSTART;TZID=Europe/Berlin:20250428T102500
+DTEND;TZID=Europe/Berlin:20250428T104000
+DTSTAMP:20250427T144929Z
+UID:1745828700-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 27.04.2025 16:4
+ 9:29 CEST (+0200)\nZuletzt geupdated (muenchen.de): N/A
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:REISEPASS - PASING
+DTSTART;TZID=Europe/Berlin:20250428T103000
+DTEND;TZID=Europe/Berlin:20250428T104500
+DTSTAMP:20250427T144929Z
+UID:1745829000-PASING
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063453/\n\nZuletzt abgerufen: 27.04.2025 16:4
+ 9:29 CEST (+0200)\nZuletzt geupdated (muenchen.de): N/A
+LOCATION:Landsberger Str. 486\, 81241 München
+END:VEVENT
 END:VCALENDAR
