@@ -5,17 +5,20 @@
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
-            "2025-04-28": {
+            "2025-05-20": {
                 "appointmentTimestamps": [
-                    1745823600
+                    1747731600
                 ]
             }
         },
         "PASING": {
             "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745828700,
-                    1745829000
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -320,12 +323,6 @@
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745823600,
-                    1745823900
-                ]
-            },
             "2025-04-30": {
                 "appointmentTimestamps": [
                     1745997300,
@@ -382,6 +379,8 @@
             "2025-05-20": {
                 "appointmentTimestamps": [
                     1747727400,
+                    1747731600,
+                    1747731900,
                     1747750800
                 ]
             },
@@ -868,12 +867,6 @@
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745823600,
-                    1745823900
-                ]
-            },
             "2025-04-30": {
                 "appointmentTimestamps": [
                     1745997300,
@@ -930,6 +923,8 @@
             "2025-05-20": {
                 "appointmentTimestamps": [
                     1747727400,
+                    1747731600,
+                    1747731900,
                     1747750800
                 ]
             },
@@ -1123,9 +1118,9 @@
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
-            "2025-04-28": {
+            "2025-05-20": {
                 "appointmentTimestamps": [
-                    1745823600
+                    1747731600
                 ]
             }
         },
@@ -1148,9 +1143,9 @@
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
-            "2025-04-28": {
+            "2025-05-20": {
                 "appointmentTimestamps": [
-                    1745823600
+                    1747731600
                 ]
             }
         },
@@ -1173,9 +1168,9 @@
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
-            "2025-04-28": {
+            "2025-05-20": {
                 "appointmentTimestamps": [
-                    1745823600
+                    1747731600
                 ]
             }
         },
@@ -1198,9 +1193,9 @@
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
-            "2025-04-28": {
+            "2025-05-20": {
                 "appointmentTimestamps": [
-                    1745823600
+                    1747731600
                 ]
             }
         },
@@ -1219,14 +1214,10 @@
     },
     "HAUSHALTSBESCHEINIGUNG": {
         "ORLEANSPLATZ": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745820300
-                ]
-            },
             "2025-04-30": {
                 "appointmentTimestamps": [
                     1745995800,
+                    1745999700,
                     1746002400,
                     1746004500
                 ]
@@ -1409,11 +1400,6 @@
             }
         },
         "LEONRODSTRASSE": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745819700
-                ]
-            },
             "2025-04-29": {
                 "appointmentTimestamps": [
                     1745915700,
@@ -2042,8 +2028,6 @@
                     1745822400,
                     1745823300,
                     1745823600,
-                    1745823900,
-                    1745824200,
                     1745825700,
                     1745826000,
                     1745827500,
@@ -2260,6 +2244,9 @@
                 "appointmentTimestamps": [
                     1747727400,
                     1747727700,
+                    1747731600,
+                    1747731900,
+                    1747732200,
                     1747734300,
                     1747736100,
                     1747737900,
@@ -2677,12 +2664,18 @@
     "PERSONENDATEN_IM_MELDEREGISTER_AENDERN": {
         "ORLEANSPLATZ": {},
         "LEONRODSTRASSE": {},
-        "RIESENFELDSTRASSE": {},
-        "FORSTENRIEDER": {},
-        "RUPPERTSTRASSE": {
+        "RIESENFELDSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823600
+                    1745832600
+                ]
+            }
+        },
+        "FORSTENRIEDER": {},
+        "RUPPERTSTRASSE": {
+            "2025-05-20": {
+                "appointmentTimestamps": [
+                    1747731600
                 ]
             }
         },
@@ -2701,11 +2694,6 @@
     },
     "EINSCHALTEN_ELD_FUNKTION_ODER_AENDERUNG_DER_PIN": {
         "ORLEANSPLATZ": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745820300
-                ]
-            },
             "2025-04-30": {
                 "appointmentTimestamps": [
                     1745995800,
@@ -2892,11 +2880,6 @@
             }
         },
         "LEONRODSTRASSE": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745819700
-                ]
-            },
             "2025-04-29": {
                 "appointmentTimestamps": [
                     1745915700,
@@ -3105,6 +3088,9 @@
         "RIESENFELDSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
+                    1745832600,
+                    1745832900,
+                    1745833200,
                     1745834100,
                     1745837100
                 ]
@@ -4176,11 +4162,6 @@
     },
     "ADRESSAENDERUNG_PERSONALAUSWEIS_REISEPASS_EAT": {
         "ORLEANSPLATZ": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745820300
-                ]
-            },
             "2025-04-30": {
                 "appointmentTimestamps": [
                     1745995800,
@@ -4249,7 +4230,6 @@
                 "appointmentTimestamps": [
                     1747737900,
                     1747743300,
-                    1747743600,
                     1747745700,
                     1747749300
                 ]
@@ -4367,11 +4347,6 @@
             }
         },
         "LEONRODSTRASSE": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745819700
-                ]
-            },
             "2025-04-29": {
                 "appointmentTimestamps": [
                     1745915700,
@@ -4580,6 +4555,9 @@
         "RIESENFELDSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
+                    1745832600,
+                    1745832900,
+                    1745833200,
                     1745834100,
                     1745837100
                 ]
@@ -5633,7 +5611,13 @@
     "ELD_KARTE_EU_EWR": {
         "ORLEANSPLATZ": {},
         "LEONRODSTRASSE": {},
-        "RIESENFELDSTRASSE": {},
+        "RIESENFELDSTRASSE": {
+            "2025-04-28": {
+                "appointmentTimestamps": [
+                    1745832600
+                ]
+            }
+        },
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {},
         "PASING": {
