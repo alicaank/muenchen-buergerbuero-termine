@@ -4,20 +4,10 @@
         "LEONRODSTRASSE": {},
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
-        "RUPPERTSTRASSE": {
-            "2025-06-06": {
-                "appointmentTimestamps": [
-                    1749200400,
-                    1749200700
-                ]
-            }
-        },
+        "RUPPERTSTRASSE": {},
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500
@@ -492,19 +482,13 @@
                     1749192600,
                     1749194400,
                     1749196200,
-                    1749199800,
-                    1749200400,
-                    1749200700,
-                    1749201000
+                    1749199800
                 ]
             }
         },
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500,
@@ -1084,9 +1068,6 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500,
@@ -1202,9 +1183,6 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500
@@ -1222,9 +1200,6 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500
@@ -1242,9 +1217,6 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500
@@ -1262,9 +1234,6 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500
@@ -2107,6 +2076,7 @@
                     1745819700,
                     1745820300,
                     1745820900,
+                    1745821200,
                     1745821500,
                     1745822100,
                     1745822400,
@@ -2540,9 +2510,7 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
                     1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500,
@@ -2770,9 +2738,6 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500
@@ -4048,9 +4013,7 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
                     1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500,
@@ -4275,14 +4238,7 @@
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {},
-        "PASING": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745823000,
-                    1745823300
-                ]
-            }
-        },
+        "PASING": {},
         "AUSLAENDERBEHOERDE": {}
     },
     "ADRESSAENDERUNG_PERSONALAUSWEIS_REISEPASS_EAT": {
@@ -5552,9 +5508,7 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
                     1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500,
@@ -5664,12 +5618,12 @@
                 ]
             },
             "2025-05-16": {
-                "appointmentTimestamps": [
-                    1747374300,
-                    1747374600,
-                    1747383300,
-                    1747383600,
-                    1747392300
+                "errors": [
+                    {
+                        "errorCode": "rateLimitExceeded",
+                        "statusCode": 429,
+                        "errorMessage": "Anfragelimit \u00fcberschritten. Bitte versuchen Sie es sp\u00e4ter erneut."
+                    }
                 ]
             },
             "2025-05-20": {
@@ -5722,19 +5676,21 @@
                 ]
             },
             "2025-05-28": {
-                "appointmentTimestamps": [
-                    1748418600,
-                    1748418900,
-                    1748422200,
-                    1748422500,
-                    1748424600,
-                    1748424900,
-                    1748429100
+                "errors": [
+                    {
+                        "errorCode": "rateLimitExceeded",
+                        "statusCode": 429,
+                        "errorMessage": "Anfragelimit \u00fcberschritten. Bitte versuchen Sie es sp\u00e4ter erneut."
+                    }
                 ]
             },
             "2025-05-30": {
-                "appointmentTimestamps": [
-                    1748601000
+                "errors": [
+                    {
+                        "errorCode": "rateLimitExceeded",
+                        "statusCode": 429,
+                        "errorMessage": "Anfragelimit \u00fcberschritten. Bitte versuchen Sie es sp\u00e4ter erneut."
+                    }
                 ]
             },
             "2025-06-03": {
@@ -5749,11 +5705,12 @@
                 ]
             },
             "2025-06-04": {
-                "appointmentTimestamps": [
-                    1749019500,
-                    1749019800,
-                    1749021900,
-                    1749029400
+                "errors": [
+                    {
+                        "errorCode": "rateLimitExceeded",
+                        "statusCode": 429,
+                        "errorMessage": "Anfragelimit \u00fcberschritten. Bitte versuchen Sie es sp\u00e4ter erneut."
+                    }
                 ]
             },
             "2025-06-05": {
@@ -5764,23 +5721,19 @@
                 ]
             },
             "2025-06-06": {
-                "appointmentTimestamps": [
-                    1749197100,
-                    1749197400,
-                    1749204900
+                "errors": [
+                    {
+                        "errorCode": "rateLimitExceeded",
+                        "statusCode": 429,
+                        "errorMessage": "Anfragelimit \u00fcberschritten. Bitte versuchen Sie es sp\u00e4ter erneut."
+                    }
                 ]
             }
         },
         "AUSLAENDERBEHOERDE": {}
     },
     "ELD_KARTE_EU_EWR": {
-        "ORLEANSPLATZ": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745833500
-                ]
-            }
-        },
+        "ORLEANSPLATZ": {},
         "LEONRODSTRASSE": {},
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
@@ -5788,9 +5741,6 @@
         "PASING": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745823000,
-                    1745823300,
-                    1745823600,
                     1745823900,
                     1745824200,
                     1745824500
