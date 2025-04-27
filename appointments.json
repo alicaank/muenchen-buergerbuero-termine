@@ -4,18 +4,15 @@
         "LEONRODSTRASSE": {},
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
-        "RUPPERTSTRASSE": {
-            "2025-05-20": {
-                "appointmentTimestamps": [
-                    1747730700
-                ]
-            }
-        },
+        "RUPPERTSTRASSE": {},
         "PASING": {
             "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745835300,
-                    1745835600
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -375,8 +372,6 @@
             "2025-05-20": {
                 "appointmentTimestamps": [
                     1747727400,
-                    1747730700,
-                    1747731000,
                     1747750800
                 ]
             },
@@ -918,8 +913,11 @@
             "2025-05-20": {
                 "appointmentTimestamps": [
                     1747727400,
-                    1747730700,
-                    1747731000,
+                    1747731600,
+                    1747731900,
+                    1747734300,
+                    1747734600,
+                    1747734900,
                     1747750800
                 ]
             },
@@ -1115,7 +1113,9 @@
         "RUPPERTSTRASSE": {
             "2025-05-20": {
                 "appointmentTimestamps": [
-                    1747730700
+                    1747731600,
+                    1747734300,
+                    1747734600
                 ]
             }
         },
@@ -1140,7 +1140,9 @@
         "RUPPERTSTRASSE": {
             "2025-05-20": {
                 "appointmentTimestamps": [
-                    1747730700
+                    1747731600,
+                    1747734300,
+                    1747734600
                 ]
             }
         },
@@ -1165,7 +1167,9 @@
         "RUPPERTSTRASSE": {
             "2025-05-20": {
                 "appointmentTimestamps": [
-                    1747730700
+                    1747731600,
+                    1747734300,
+                    1747734600
                 ]
             }
         },
@@ -1190,7 +1194,8 @@
         "RUPPERTSTRASSE": {
             "2025-05-20": {
                 "appointmentTimestamps": [
-                    1747730700
+                    1747734300,
+                    1747734600
                 ]
             }
         },
