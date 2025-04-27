@@ -1,21 +1,21 @@
 {
     "REISEPASS": {
-        "ORLEANSPLATZ": {},
-        "LEONRODSTRASSE": {},
-        "RIESENFELDSTRASSE": {},
-        "FORSTENRIEDER": {},
-        "RUPPERTSTRASSE": {
+        "ORLEANSPLATZ": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745819700,
-                    1745820000,
-                    1745834700,
-                    1745835000,
-                    1745835300,
-                    1745835600
+                    1745830800
+                ]
+            },
+            "2025-05-20": {
+                "appointmentTimestamps": [
+                    1747732500
                 ]
             }
         },
+        "LEONRODSTRASSE": {},
+        "RIESENFELDSTRASSE": {},
+        "FORSTENRIEDER": {},
+        "RUPPERTSTRASSE": {},
         "PASING": {
             "2025-04-28": {
                 "errors": [
@@ -25,17 +25,24 @@
                         "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
                     }
                 ]
-            },
-            "2025-04-29": {
-                "appointmentTimestamps": [
-                    1745936100
-                ]
             }
         },
         "AUSLAENDERBEHOERDE": {}
     },
     "BEGLAUBIGUNG_VON_BIS_ZU_5_DOKUMENTEN": {
         "ORLEANSPLATZ": {
+            "2025-04-28": {
+                "appointmentTimestamps": [
+                    1745830800,
+                    1745831100
+                ]
+            },
+            "2025-05-20": {
+                "appointmentTimestamps": [
+                    1747732500,
+                    1747732800
+                ]
+            },
             "2025-05-21": {
                 "appointmentTimestamps": [
                     1747817100
@@ -325,15 +332,7 @@
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745819700,
-                    1745820000,
-                    1745820300,
-                    1745827500,
-                    1745834700,
-                    1745835000,
-                    1745835300,
-                    1745835600,
-                    1745835900
+                    1745827500
                 ]
             },
             "2025-05-08": {
@@ -474,12 +473,6 @@
             "2025-04-28": {
                 "appointmentTimestamps": [
                     1745830200
-                ]
-            },
-            "2025-04-29": {
-                "appointmentTimestamps": [
-                    1745936100,
-                    1745936400
                 ]
             },
             "2025-04-30": {
@@ -560,6 +553,12 @@
     },
     "BEGLAUBIGUNG_VON_UNTERSCHRIFTEN": {
         "ORLEANSPLATZ": {
+            "2025-05-20": {
+                "appointmentTimestamps": [
+                    1747732500,
+                    1747732800
+                ]
+            },
             "2025-05-21": {
                 "appointmentTimestamps": [
                     1747817100
@@ -849,15 +848,10 @@
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745819700,
-                    1745820000,
-                    1745820300,
                     1745827500,
+                    1745834400,
                     1745834700,
-                    1745835000,
-                    1745835300,
-                    1745835600,
-                    1745835900
+                    1745835000
                 ]
             },
             "2025-05-08": {
@@ -1000,12 +994,6 @@
                     1745830200
                 ]
             },
-            "2025-04-29": {
-                "appointmentTimestamps": [
-                    1745936100,
-                    1745936400
-                ]
-            },
             "2025-04-30": {
                 "appointmentTimestamps": [
                     1745994900,
@@ -1084,21 +1072,9 @@
     },
     "PERSONALAUSWEIS": {
         "ORLEANSPLATZ": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745830800,
-                    1745831100,
-                    1745831400,
-                    1745831700
-                ]
-            },
             "2025-05-20": {
-                "errors": [
-                    {
-                        "errorCode": "appointmentNotAvailable",
-                        "statusCode": 200,
-                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
-                    }
+                "appointmentTimestamps": [
+                    1747732500
                 ]
             }
         },
@@ -1108,12 +1084,8 @@
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745819700,
-                    1745820000,
-                    1745834700,
-                    1745835000,
-                    1745835300,
-                    1745835600
+                    1745834400,
+                    1745834700
                 ]
             }
         },
@@ -1125,11 +1097,6 @@
                         "statusCode": 200,
                         "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
                     }
-                ]
-            },
-            "2025-04-29": {
-                "appointmentTimestamps": [
-                    1745936100
                 ]
             }
         },
@@ -1137,12 +1104,9 @@
     },
     "WOHNSITZ_ANMELDEN_ODER_UMMELDEN": {
         "ORLEANSPLATZ": {
-            "2025-04-28": {
+            "2025-05-20": {
                 "appointmentTimestamps": [
-                    1745830800,
-                    1745831100,
-                    1745831400,
-                    1745831700
+                    1747732500
                 ]
             }
         },
@@ -1152,12 +1116,8 @@
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745819700,
-                    1745820000,
-                    1745834700,
-                    1745835000,
-                    1745835300,
-                    1745835600
+                    1745834400,
+                    1745834700
                 ]
             }
         },
@@ -1169,11 +1129,6 @@
                         "statusCode": 200,
                         "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
                     }
-                ]
-            },
-            "2025-04-29": {
-                "appointmentTimestamps": [
-                    1745936100
                 ]
             }
         },
@@ -1183,10 +1138,12 @@
         "ORLEANSPLATZ": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745830800,
-                    1745831100,
-                    1745831400,
                     1745831700
+                ]
+            },
+            "2025-05-20": {
+                "appointmentTimestamps": [
+                    1747732500
                 ]
             }
         },
@@ -1196,8 +1153,7 @@
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745819700,
-                    1745820000,
+                    1745834400,
                     1745834700,
                     1745835000,
                     1745835300,
@@ -1213,11 +1169,6 @@
                         "statusCode": 200,
                         "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
                     }
-                ]
-            },
-            "2025-04-29": {
-                "appointmentTimestamps": [
-                    1745936100
                 ]
             }
         },
@@ -1227,10 +1178,12 @@
         "ORLEANSPLATZ": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745830800,
-                    1745831100,
-                    1745831400,
                     1745831700
+                ]
+            },
+            "2025-05-20": {
+                "appointmentTimestamps": [
+                    1747732500
                 ]
             }
         },
@@ -1240,8 +1193,7 @@
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745819700,
-                    1745820000,
+                    1745834400,
                     1745834700,
                     1745835000,
                     1745835300,
@@ -1251,15 +1203,6 @@
         },
         "PASING": {
             "2025-04-28": {
-                "errors": [
-                    {
-                        "errorCode": "appointmentNotAvailable",
-                        "statusCode": 200,
-                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
-                    }
-                ]
-            },
-            "2025-04-29": {
                 "errors": [
                     {
                         "errorCode": "appointmentNotAvailable",
@@ -1275,13 +1218,7 @@
         "ORLEANSPLATZ": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745821800,
-                    1745830800,
-                    1745831100,
-                    1745831400,
-                    1745831700,
-                    1745832000,
-                    1745832300
+                    1745821800
                 ]
             },
             "2025-05-06": {
@@ -1337,6 +1274,9 @@
             },
             "2025-05-20": {
                 "appointmentTimestamps": [
+                    1747732500,
+                    1747732800,
+                    1747733100,
                     1747737900,
                     1747743300,
                     1747745700,
@@ -1839,7 +1779,6 @@
         "FORSTENRIEDER": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745818200,
                     1745829600,
                     1745835300,
                     1745837100
@@ -2066,9 +2005,7 @@
                 "appointmentTimestamps": [
                     1745819100,
                     1745819700,
-                    1745820000,
                     1745820300,
-                    1745820600,
                     1745820900,
                     1745821500,
                     1745822400,
@@ -2085,6 +2022,7 @@
                     1745831700,
                     1745833500,
                     1745834100,
+                    1745834400,
                     1745834700,
                     1745835000,
                     1745835300,
@@ -2691,19 +2629,14 @@
         "AUSLAENDERBEHOERDE": {}
     },
     "PERSONENDATEN_IM_MELDEREGISTER_AENDERN": {
-        "ORLEANSPLATZ": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745830800
-                ]
-            }
-        },
+        "ORLEANSPLATZ": {},
         "LEONRODSTRASSE": {},
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
+                    1745834400,
                     1745834700,
                     1745835000,
                     1745835300,
@@ -2728,9 +2661,7 @@
         "ORLEANSPLATZ": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745830800,
-                    1745831100,
-                    1745831400
+                    1745821800
                 ]
             },
             "2025-05-06": {
@@ -3288,7 +3219,6 @@
         "FORSTENRIEDER": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745818200,
                     1745829600,
                     1745835300,
                     1745837100
@@ -3532,6 +3462,7 @@
                     1745831700,
                     1745833500,
                     1745834100,
+                    1745834400,
                     1745834700,
                     1745835000,
                     1745835300,
@@ -4142,7 +4073,13 @@
         "LEONRODSTRASSE": {},
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
-        "RUPPERTSTRASSE": {},
+        "RUPPERTSTRASSE": {
+            "2025-04-28": {
+                "appointmentTimestamps": [
+                    1745834400
+                ]
+            }
+        },
         "PASING": {
             "2025-04-28": {
                 "errors": [
@@ -4160,9 +4097,7 @@
         "ORLEANSPLATZ": {
             "2025-04-28": {
                 "appointmentTimestamps": [
-                    1745830800,
-                    1745831100,
-                    1745831400
+                    1745821800
                 ]
             },
             "2025-05-06": {
@@ -4963,6 +4898,7 @@
                     1745831700,
                     1745833500,
                     1745834100,
+                    1745834400,
                     1745834700,
                     1745835000,
                     1745835300,
@@ -5569,24 +5505,14 @@
         "AUSLAENDERBEHOERDE": {}
     },
     "ELD_KARTE_EU_EWR": {
-        "ORLEANSPLATZ": {
-            "2025-04-28": {
-                "appointmentTimestamps": [
-                    1745830800
-                ]
-            },
-            "2025-05-20": {
-                "appointmentTimestamps": [
-                    1747732500
-                ]
-            }
-        },
+        "ORLEANSPLATZ": {},
         "LEONRODSTRASSE": {},
         "RIESENFELDSTRASSE": {},
         "FORSTENRIEDER": {},
         "RUPPERTSTRASSE": {
             "2025-04-28": {
                 "appointmentTimestamps": [
+                    1745834400,
                     1745834700,
                     1745835000,
                     1745835300,
