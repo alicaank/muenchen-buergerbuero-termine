@@ -3,4 +3,15 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//ELD_KARTE_EU_EWR//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:ELD_KARTE_EU_EWR - FORSTENRIEDER
+DTSTART;TZID=Europe/Berlin:20250508T110000
+DTEND;TZID=Europe/Berlin:20250508T111500
+DTSTAMP:20250428T174736Z
+UID:1746694800-FORSTENRIEDER
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/10306925/\n\nZuletzt abgerufen: 28.04.2025 19:
+ 47:36 CEST (+0200)\nZuletzt geupdated (muenchen.de): N/A
+LOCATION:Forstenrieder Allee 61a\, 81476 München
+END:VEVENT
 END:VCALENDAR
