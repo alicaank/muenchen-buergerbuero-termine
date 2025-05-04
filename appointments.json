@@ -6,16 +6,19 @@
         "FORSTENRIEDER": {
             "2025-05-05": {
                 "appointmentTimestamps": [
-                    1746440100
+                    1746440100,
+                    1746441000,
+                    1746441300
+                ]
+            },
+            "2025-05-07": {
+                "appointmentTimestamps": [
+                    1746613800,
+                    1746614100
                 ]
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300
-                ]
-            },
             "2025-06-11": {
                 "appointmentTimestamps": [
                     1749637800,
@@ -33,7 +36,9 @@
                     1749732600,
                     1749732900,
                     1749733200,
-                    1749733500
+                    1749733500,
+                    1749733800,
+                    1749734100
                 ]
             },
             "2025-06-13": {
@@ -60,9 +65,12 @@
         },
         "PASING": {
             "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746440100,
-                    1746440400
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -305,7 +313,10 @@
             "2025-05-05": {
                 "appointmentTimestamps": [
                     1746440100,
-                    1746440400
+                    1746440400,
+                    1746441000,
+                    1746441300,
+                    1746441600
                 ]
             },
             "2025-05-06": {
@@ -318,7 +329,10 @@
             "2025-05-07": {
                 "appointmentTimestamps": [
                     1746607800,
-                    1746610800
+                    1746610800,
+                    1746613800,
+                    1746614100,
+                    1746614400
                 ]
             },
             "2025-05-08": {
@@ -424,12 +438,6 @@
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300,
-                    1746429600
-                ]
-            },
             "2025-05-06": {
                 "appointmentTimestamps": [
                     1746523800,
@@ -573,6 +581,8 @@
                     1749733200,
                     1749733500,
                     1749733800,
+                    1749734100,
+                    1749734400,
                     1749735300,
                     1749740700,
                     1749742500
@@ -612,10 +622,7 @@
                     1746427800,
                     1746431400,
                     1746432000,
-                    1746438600,
-                    1746440100,
-                    1746440400,
-                    1746440700
+                    1746438600
                 ]
             },
             "2025-05-06": {
@@ -968,7 +975,10 @@
             "2025-05-07": {
                 "appointmentTimestamps": [
                     1746607800,
-                    1746610800
+                    1746610800,
+                    1746613800,
+                    1746614100,
+                    1746614400
                 ]
             },
             "2025-05-08": {
@@ -1074,12 +1084,6 @@
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300,
-                    1746429600
-                ]
-            },
             "2025-05-06": {
                 "appointmentTimestamps": [
                     1746523800,
@@ -1200,10 +1204,7 @@
                     1749621900,
                     1749628200,
                     1749631800,
-                    1749635400,
-                    1749637800,
-                    1749638100,
-                    1749638400
+                    1749635400
                 ]
             },
             "2025-06-12": {
@@ -1264,10 +1265,7 @@
                     1746427800,
                     1746431400,
                     1746432000,
-                    1746438600,
-                    1746440100,
-                    1746440400,
-                    1746440700
+                    1746438600
                 ]
             },
             "2025-05-06": {
@@ -1378,20 +1376,15 @@
                     1746441000,
                     1746441300
                 ]
+            },
+            "2025-05-07": {
+                "appointmentTimestamps": [
+                    1746613800,
+                    1746614100
+                ]
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300
-                ]
-            },
-            "2025-06-11": {
-                "appointmentTimestamps": [
-                    1749637800,
-                    1749638100
-                ]
-            },
             "2025-06-12": {
                 "appointmentTimestamps": [
                     1749723000,
@@ -1432,9 +1425,12 @@
         },
         "PASING": {
             "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746440100,
-                    1746440400
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -1451,20 +1447,15 @@
                     1746441000,
                     1746441300
                 ]
+            },
+            "2025-05-07": {
+                "appointmentTimestamps": [
+                    1746613800,
+                    1746614100
+                ]
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300
-                ]
-            },
-            "2025-06-11": {
-                "appointmentTimestamps": [
-                    1749637800,
-                    1749638100
-                ]
-            },
             "2025-06-12": {
                 "appointmentTimestamps": [
                     1749723000,
@@ -1505,9 +1496,12 @@
         },
         "PASING": {
             "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746440100,
-                    1746440400
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -1524,20 +1518,15 @@
                     1746441000,
                     1746441300
                 ]
+            },
+            "2025-05-07": {
+                "appointmentTimestamps": [
+                    1746613800,
+                    1746614100
+                ]
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300
-                ]
-            },
-            "2025-06-11": {
-                "appointmentTimestamps": [
-                    1749637800,
-                    1749638100
-                ]
-            },
             "2025-06-12": {
                 "appointmentTimestamps": [
                     1749723000,
@@ -1578,9 +1567,12 @@
         },
         "PASING": {
             "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746440100,
-                    1746440400
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -1597,20 +1589,15 @@
                     1746441000,
                     1746441300
                 ]
+            },
+            "2025-05-07": {
+                "appointmentTimestamps": [
+                    1746613800,
+                    1746614100
+                ]
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300
-                ]
-            },
-            "2025-06-11": {
-                "appointmentTimestamps": [
-                    1749637800,
-                    1749638100
-                ]
-            },
             "2025-06-12": {
                 "appointmentTimestamps": [
                     1749723000,
@@ -1651,9 +1638,12 @@
         },
         "PASING": {
             "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746440100,
-                    1746440400
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -2312,6 +2302,8 @@
                     1746610800,
                     1746611100,
                     1746613800,
+                    1746614100,
+                    1746614400,
                     1746614700
                 ]
             },
@@ -2528,8 +2520,6 @@
             "2025-05-05": {
                 "appointmentTimestamps": [
                     1746429300,
-                    1746429600,
-                    1746429900,
                     1746441900
                 ]
             },
@@ -2856,9 +2846,6 @@
                     1749635400,
                     1749635700,
                     1749636600,
-                    1749637800,
-                    1749638100,
-                    1749638400,
                     1749638700
                 ]
             },
@@ -2950,8 +2937,6 @@
                     1746438900,
                     1746439200,
                     1746440100,
-                    1746440400,
-                    1746440700,
                     1746441000,
                     1746441900
                 ]
@@ -3206,20 +3191,15 @@
                     1746441000,
                     1746441300
                 ]
+            },
+            "2025-05-07": {
+                "appointmentTimestamps": [
+                    1746613800,
+                    1746614100
+                ]
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746429300
-                ]
-            },
-            "2025-06-11": {
-                "appointmentTimestamps": [
-                    1749637800,
-                    1749638100
-                ]
-            },
             "2025-06-12": {
                 "appointmentTimestamps": [
                     1749723000,
@@ -3260,9 +3240,12 @@
         },
         "PASING": {
             "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746440100,
-                    1746440400
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
@@ -3921,6 +3904,8 @@
                     1746610800,
                     1746611100,
                     1746613800,
+                    1746614100,
+                    1746614400,
                     1746614700
                 ]
             },
@@ -4137,8 +4122,6 @@
             "2025-05-05": {
                 "appointmentTimestamps": [
                     1746429300,
-                    1746429600,
-                    1746429900,
                     1746441900
                 ]
             },
@@ -4465,9 +4448,6 @@
                     1749635400,
                     1749635700,
                     1749636600,
-                    1749637800,
-                    1749638100,
-                    1749638400,
                     1749638700
                 ]
             },
@@ -4559,8 +4539,6 @@
                     1746438900,
                     1746439200,
                     1746440100,
-                    1746440400,
-                    1746440700,
                     1746441000,
                     1746441900
                 ]
@@ -5495,6 +5473,8 @@
                     1746610800,
                     1746611100,
                     1746613800,
+                    1746614100,
+                    1746614400,
                     1746614700
                 ]
             },
@@ -6037,9 +6017,6 @@
                     1749635400,
                     1749635700,
                     1749636600,
-                    1749637800,
-                    1749638100,
-                    1749638400,
                     1749638700
                 ]
             },
@@ -6131,8 +6108,6 @@
                     1746438900,
                     1746439200,
                     1746440100,
-                    1746440400,
-                    1746440700,
                     1746441000,
                     1746441900
                 ]
@@ -6396,12 +6371,6 @@
             }
         },
         "RUPPERTSTRASSE": {
-            "2025-06-11": {
-                "appointmentTimestamps": [
-                    1749637800,
-                    1749638100
-                ]
-            },
             "2025-06-12": {
                 "appointmentTimestamps": [
                     1749723000,
@@ -6442,9 +6411,12 @@
         },
         "PASING": {
             "2025-05-05": {
-                "appointmentTimestamps": [
-                    1746440100,
-                    1746440400
+                "errors": [
+                    {
+                        "errorCode": "appointmentNotAvailable",
+                        "statusCode": 200,
+                        "errorMessage": "Der von Ihnen gew\u00e4hlte Termin ist leider nicht mehr verf\u00fcgbar."
+                    }
                 ]
             }
         },
