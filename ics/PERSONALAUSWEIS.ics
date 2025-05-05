@@ -3,4 +3,26 @@ VERSION:2.0
 PRODID:-//Appointments Buergerbuero Muenchen//PERSONALAUSWEIS//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - RIESENFELDSTRASSE
+DTSTART;TZID=Europe/Berlin:20250506T104500
+DTEND;TZID=Europe/Berlin:20250506T110000
+DTSTAMP:20250505T202009Z
+UID:1746521100-RIESENFELDSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 05.05.2025 22:2
+ 0:09 CEST (+0200)\nZuletzt geupdated (muenchen.de): N/A
+LOCATION:Riesenfeldstraße 75\, 80809 München
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PERSONALAUSWEIS - RUPPERTSTRASSE
+DTSTART;TZID=Europe/Berlin:20250506T170000
+DTEND;TZID=Europe/Berlin:20250506T171500
+DTSTAMP:20250505T202009Z
+UID:1746543600-RUPPERTSTRASSE
+DESCRIPTION:Termin buchen: https://stadt.muenchen.de/buergerservice/termin
+ vereinbarung.html#/services/1063441/\n\nZuletzt abgerufen: 05.05.2025 22:2
+ 0:09 CEST (+0200)\nZuletzt geupdated (muenchen.de): N/A
+LOCATION:Ruppertstraße 19\, 80337 München
+END:VEVENT
 END:VCALENDAR
